@@ -1,400 +1,400 @@
-|     | Date       | Game Type   |   White Rating |   Black Rating | Result   | Site                         |   AverageRating |
-|----:|:-----------|:------------|---------------:|---------------:|:---------|:-----------------------------|----------------:|
-|   0 | 2021.01.01 | Blitz       |           2125 |           2167 | 0-1      | https://lichess.org/4XVIHf2n |            4292 |
-|   1 | 2021.01.01 | Bullet      |           2113 |           2074 | 1-0      | https://lichess.org/iZH4fhlH |            4187 |
-|   2 | 2021.01.01 | Blitz       |           2026 |           1904 | 1-0      | https://lichess.org/sye0DVUN |            3930 |
-|   3 | 2021.01.01 | Bullet      |           1870 |           1859 | 1-0      | https://lichess.org/wz4qSN1J |            3729 |
-|   4 | 2021.01.01 | Blitz       |           1989 |           1667 | 1-0      | https://lichess.org/25AeBuxn |            3656 |
-|   5 | 2021.01.01 | Bullet      |           1937 |           1670 | 1-0      | https://lichess.org/r1Uebhws |            3607 |
-|   6 | 2021.01.01 | Blitz       |           1796 |           1769 | 0-1      | https://lichess.org/iBIzg2N1 |            3565 |
-|   7 | 2021.01.01 | Blitz       |           1974 |           1507 | 1-0      | https://lichess.org/6OxlU62g |            3481 |
-|   8 | 2021.01.01 | Blitz       |           1771 |           1697 | 1-0      | https://lichess.org/2nalQlUw |            3468 |
-|   9 | 2021.01.01 | Bullet      |           1570 |           1582 | 0-1      | https://lichess.org/UN6pzEzG |            3152 |
-|  10 | 2021.01.01 | Blitz       |           1461 |           1482 | 0-1      | https://lichess.org/CrKxBkFR |            2943 |
-|  11 | 2021.01.01 | Rapid       |           1532 |           1386 | 1-0      | https://lichess.org/xrvCxbuC |            2918 |
-|  12 | 2021.01.01 | Blitz       |           1334 |           1527 | 0-1      | https://lichess.org/9IN0JuDp |            2861 |
-|  13 | 2021.01.01 | Bullet      |           1261 |           1498 | 0-1      | https://lichess.org/iY8DUqrT |            2759 |
-|  14 | 2021.01.01 | Blitz       |           1377 |           1301 | 1-0      | https://lichess.org/7HNEsmRA |            2678 |
-|  15 | 2021.01.02 | Bullet      |           2573 |           2611 | 1-0      | https://lichess.org/cv1Zafb8 |            5184 |
-|  16 | 2021.01.02 | Blitz       |           2204 |           2305 | 1-0      | https://lichess.org/f03CZec3 |            4509 |
-|  17 | 2021.01.02 | Blitz       |           1968 |           2001 | 0-1      | https://lichess.org/pm2RFCuW |            3969 |
-|  18 | 2021.01.02 | Blitz       |           1781 |           1726 | 0-1      | https://lichess.org/917oEJpj |            3507 |
-|  19 | 2021.01.02 | Rapid       |           1422 |           1617 | 1-0      | https://lichess.org/ppQ4zItw |            3039 |
-|  20 | 2021.01.03 | Bullet      |           2204 |           2298 | 0-1      | https://lichess.org/RHXDOoxL |            4502 |
-|  21 | 2021.01.03 | Bullet      |           1996 |           2131 | 0-1      | https://lichess.org/oxsN1y1e |            4127 |
-|  22 | 2021.01.03 | Bullet      |           2071 |           2032 | 1-0      | https://lichess.org/8sjB2Uv7 |            4103 |
-|  23 | 2021.01.03 | Rapid       |           2057 |           2000 | 0-1      | https://lichess.org/AOfbImSb |            4057 |
-|  24 | 2021.01.03 | Blitz       |           1896 |           1902 | 1-0      | https://lichess.org/8bSWWznF |            3798 |
-|  25 | 2021.01.03 | Bullet      |           1786 |           1762 | 0-1      | https://lichess.org/7wePXZnj |            3548 |
-|  26 | 2021.01.03 | Bullet      |           1695 |           1776 | 0-1      | https://lichess.org/Q9PRpFst |            3471 |
-|  27 | 2021.01.03 | Blitz       |           1714 |           1708 | 1-0      | https://lichess.org/mrK7DfEP |            3422 |
-|  28 | 2021.01.03 | Blitz       |           1671 |           1591 | 1-0      | https://lichess.org/o0TWDSl1 |            3262 |
-|  29 | 2021.01.03 | Rapid       |           1556 |           1558 | 1-0      | https://lichess.org/SbjBln5o |            3114 |
-|  30 | 2021.01.03 | Blitz       |           1540 |           1530 | 0-1      | https://lichess.org/kx6uvlxQ |            3070 |
-|  31 | 2021.01.03 | Rapid       |           1390 |           1589 | 0-1      | https://lichess.org/wWFLL9tC |            2979 |
-|  32 | 2021.01.03 | Rapid       |           1486 |           1375 | 1-0      | https://lichess.org/kBiVM1qg |            2861 |
-|  33 | 2021.01.03 | Blitz       |           1372 |           1343 | 1-0      | https://lichess.org/U5pz4HEE |            2715 |
-|  34 | 2021.01.03 | Blitz       |           1309 |           1303 | 0-1      | https://lichess.org/RsJHcJIW |            2612 |
-|  35 | 2021.01.04 | Bullet      |           2159 |           2733 | 0-1      | https://lichess.org/kEHCtaj3 |            4892 |
-|  36 | 2021.01.04 | Blitz       |           2203 |           2237 | 0-1      | https://lichess.org/xqgfLkW5 |            4440 |
-|  37 | 2021.01.04 | Bullet      |           2193 |           2218 | 0-1      | https://lichess.org/hKcD4SGL |            4411 |
-|  38 | 2021.01.04 | Blitz       |           2083 |           2073 | 1-0      | https://lichess.org/fgQ7vu7s |            4156 |
-|  39 | 2021.01.04 | Blitz       |           2022 |           1958 | 0-1      | https://lichess.org/8XoTFvhu |            3980 |
-|  40 | 2021.01.04 | Rapid       |           1838 |           1822 | 1-0      | https://lichess.org/0kqPhztq |            3660 |
-|  41 | 2021.01.04 | Blitz       |           1829 |           1827 | 0-1      | https://lichess.org/676HDD25 |            3656 |
-|  42 | 2021.01.04 | Blitz       |           1539 |           2040 | 0-1      | https://lichess.org/AEUo9JdN |            3579 |
-|  43 | 2021.01.04 | Rapid       |           1463 |           1611 | 0-1      | https://lichess.org/vsyNPepl |            3074 |
-|  44 | 2021.01.04 | Blitz       |           1795 |           1210 | 0-1      | https://lichess.org/z5LytCj4 |            3005 |
-|  45 | 2021.01.04 | Blitz       |           1457 |           1424 | 1-0      | https://lichess.org/eFeO3WkF |            2881 |
-|  46 | 2021.01.04 | Rapid       |           1334 |           1500 | 0-1      | https://lichess.org/5tGGoR5x |            2834 |
-|  47 | 2021.01.04 | Rapid       |           1401 |           1413 | 1-0      | https://lichess.org/lRYzhqnZ |            2814 |
-|  48 | 2021.01.04 | Blitz       |           1322 |           1326 | 0-1      | https://lichess.org/5SvJeAXl |            2648 |
-|  49 | 2021.01.04 | Blitz       |           1287 |           1250 | 0-1      | https://lichess.org/Rr0u8zwi |            2537 |
-|  50 | 2021.01.04 | Blitz       |           1191 |           1197 | 1-0      | https://lichess.org/qfpQI6nl |            2388 |
-|  51 | 2021.01.05 | Bullet      |           2155 |           2170 | 1-0      | https://lichess.org/ZDorTj0b |            4325 |
-|  52 | 2021.01.05 | Blitz       |           2169 |           2145 | 0-1      | https://lichess.org/BVoXHc8R |            4314 |
-|  53 | 2021.01.05 | Blitz       |           2094 |           2052 | 0-1      | https://lichess.org/92jRWUBq |            4146 |
-|  54 | 2021.01.05 | Blitz       |           2200 |           1915 | 1-0      | https://lichess.org/zPP9rDlp |            4115 |
-|  55 | 2021.01.05 | Blitz       |           2097 |           1920 | 1-0      | https://lichess.org/poYPRMmr |            4017 |
-|  56 | 2021.01.05 | Blitz       |           1897 |           1932 | 0-1      | https://lichess.org/DWSAY7pm |            3829 |
-|  57 | 2021.01.05 | Bullet      |           1848 |           1817 | 1-0      | https://lichess.org/48gdDeka |            3665 |
-|  58 | 2021.01.05 | Bullet      |           1798 |           1728 | 1-0      | https://lichess.org/CGcM1y3k |            3526 |
-|  59 | 2021.01.05 | Blitz       |           1748 |           1770 | 1-0      | https://lichess.org/1StlCcj1 |            3518 |
-|  60 | 2021.01.05 | Blitz       |           1707 |           1808 | 1-0      | https://lichess.org/Iivvm0FZ |            3515 |
-|  61 | 2021.01.05 | Bullet      |           1626 |           1607 | 1-0      | https://lichess.org/zt2ofK6R |            3233 |
-|  62 | 2021.01.05 | Blitz       |           1232 |           1859 | 0-1      | https://lichess.org/QV2Ob3Pr |            3091 |
-|  63 | 2021.01.05 | Rapid       |           1548 |           1534 | 0-1      | https://lichess.org/KSqACEUB |            3082 |
-|  64 | 2021.01.05 | Blitz       |           1478 |           1533 | 1-0      | https://lichess.org/TxX9SmPO |            3011 |
-|  65 | 2021.01.05 | Blitz       |           1506 |           1498 | 0-1      | https://lichess.org/DBE6gSWZ |            3004 |
-|  66 | 2021.01.05 | Blitz       |           1499 |           1499 | 1-0      | https://lichess.org/6EOB7Myw |            2998 |
-|  67 | 2021.01.05 | Blitz       |           1480 |           1459 | 0-1      | https://lichess.org/iJDQcrIg |            2939 |
-|  68 | 2021.01.05 | Bullet      |           1455 |           1479 | 0-1      | https://lichess.org/7Q3OzQPW |            2934 |
-|  69 | 2021.01.05 | Bullet      |           1341 |           1553 | 0-1      | https://lichess.org/Hmv5LW93 |            2894 |
-|  70 | 2021.01.05 | Rapid       |           1371 |           1372 | 1-0      | https://lichess.org/vf5v8cQr |            2743 |
-|  71 | 2021.01.05 | Rapid       |           1244 |           1322 | 1-0      | https://lichess.org/3mkH7AvV |            2566 |
-|  72 | 2021.01.06 | Blitz       |           2309 |           2320 | 0-1      | https://lichess.org/PESCCBaP |            4629 |
-|  73 | 2021.01.06 | Rapid       |           2036 |           1981 | 1-0      | https://lichess.org/gI7a3ZaD |            4017 |
-|  74 | 2021.01.06 | Blitz       |           1943 |           1969 | 0-1      | https://lichess.org/pqGArwLs |            3912 |
-|  75 | 2021.01.06 | Bullet      |           1945 |           1913 | 1-0      | https://lichess.org/Bw3NezGb |            3858 |
-|  76 | 2021.01.06 | Rapid       |           1781 |           1777 | 1-0      | https://lichess.org/xQt3o8X3 |            3558 |
-|  77 | 2021.01.06 | Blitz       |           1436 |           1944 | 1-0      | https://lichess.org/9kqRh8At |            3380 |
-|  78 | 2021.01.06 | Blitz       |           1679 |           1682 | 1-0      | https://lichess.org/Uy7VJXBx |            3361 |
-|  79 | 2021.01.06 | Bullet      |           1584 |           1601 | 1-0      | https://lichess.org/6qFT9gri |            3185 |
-|  80 | 2021.01.06 | Rapid       |           1618 |           1536 | 0-1      | https://lichess.org/9oc2ox4b |            3154 |
-|  81 | 2021.01.06 | Rapid       |           1519 |           1283 | 0-1      | https://lichess.org/wCo4MOr8 |            2802 |
-|  82 | 2021.01.06 | Bullet      |           1304 |           1227 | 0-1      | https://lichess.org/9kmHuRXq |            2531 |
-|  83 | 2021.01.07 | Blitz       |           2277 |           2051 | 1-0      | https://lichess.org/mSob4IF8 |            4328 |
-|  84 | 2021.01.07 | Rapid       |           2095 |           2020 | 0-1      | https://lichess.org/WS92R0dr |            4115 |
-|  85 | 2021.01.07 | Blitz       |           2002 |           1969 | 1-0      | https://lichess.org/uqlzuZ5u |            3971 |
-|  86 | 2021.01.07 | Rapid       |           1839 |           1866 | 0-1      | https://lichess.org/ArKP856V |            3705 |
-|  87 | 2021.01.07 | Bullet      |           1727 |           1754 | 0-1      | https://lichess.org/uK0JurbE |            3481 |
-|  88 | 2021.01.07 | Rapid       |           1709 |           1769 | 0-1      | https://lichess.org/yE0rv5QX |            3478 |
-|  89 | 2021.01.07 | Bullet      |           1727 |           1714 | 1-0      | https://lichess.org/LegOjFAO |            3441 |
-|  90 | 2021.01.07 | Blitz       |           1132 |           2209 | 0-1      | https://lichess.org/pYxPLwTU |            3341 |
-|  91 | 2021.01.07 | Blitz       |           1596 |           1629 | 0-1      | https://lichess.org/YIeFRm50 |            3225 |
-|  92 | 2021.01.07 | Blitz       |           1274 |           1276 | 1-0      | https://lichess.org/43MQm11J |            2550 |
-|  93 | 2021.01.08 | Blitz       |           2178 |           2263 | 0-1      | https://lichess.org/IUafPGHn |            4441 |
-|  94 | 2021.01.08 | Bullet      |           2229 |           2210 | 1-0      | https://lichess.org/hCcPebzR |            4439 |
-|  95 | 2021.01.08 | Blitz       |           2208 |           2211 | 1-0      | https://lichess.org/UgQAGwk7 |            4419 |
-|  96 | 2021.01.08 | Bullet      |           2084 |           2144 | 0-1      | https://lichess.org/NBWd8PpO |            4228 |
-|  97 | 2021.01.08 | Bullet      |           2001 |           2131 | 0-1      | https://lichess.org/Hkg4w057 |            4132 |
-|  98 | 2021.01.08 | Blitz       |           2022 |           2038 | 0-1      | https://lichess.org/Y5o8c0ZD |            4060 |
-|  99 | 2021.01.08 | Rapid       |           2010 |           1983 | 0-1      | https://lichess.org/sjbsHeHG |            3993 |
-| 100 | 2021.01.08 | Rapid       |           1940 |           1981 | 0-1      | https://lichess.org/vneCL4ju |            3921 |
-| 101 | 2021.01.08 | Bullet      |           1862 |           1957 | 0-1      | https://lichess.org/8O9tt6SM |            3819 |
-| 102 | 2021.01.08 | Blitz       |           1908 |           1849 | 1-0      | https://lichess.org/yCwgxyHa |            3757 |
-| 103 | 2021.01.08 | Bullet      |           1606 |           1593 | 0-1      | https://lichess.org/ZaYtNPrn |            3199 |
-| 104 | 2021.01.08 | Rapid       |           1600 |           1447 | 1-0      | https://lichess.org/T91jxBgf |            3047 |
-| 105 | 2021.01.08 | Bullet      |           1477 |           1488 | 1-0      | https://lichess.org/YjWCGBd6 |            2965 |
-| 106 | 2021.01.08 | Bullet      |           1458 |           1478 | 1-0      | https://lichess.org/PtKZgwIL |            2936 |
-| 107 | 2021.01.08 | Blitz       |           1443 |           1422 | 1-0      | https://lichess.org/2IWJTVhc |            2865 |
-| 108 | 2021.01.09 | Blitz       |           2395 |           2450 | 1-0      | https://lichess.org/c342SCV6 |            4845 |
-| 109 | 2021.01.09 | Bullet      |           1949 |           2016 | 0-1      | https://lichess.org/Re7N47pr |            3965 |
-| 110 | 2021.01.09 | Bullet      |           1938 |           1946 | 1-0      | https://lichess.org/VXsSPwMH |            3884 |
-| 111 | 2021.01.09 | Blitz       |           1872 |           1910 | 1-0      | https://lichess.org/cFzeB80d |            3782 |
-| 112 | 2021.01.09 | Bullet      |           1822 |           1854 | 0-1      | https://lichess.org/eqgV7T1Q |            3676 |
-| 113 | 2021.01.09 | Blitz       |           1829 |           1812 | 1-0      | https://lichess.org/Dw88B7SC |            3641 |
-| 114 | 2021.01.09 | Bullet      |           1779 |           1777 | 1-0      | https://lichess.org/l3N2fr9X |            3556 |
-| 115 | 2021.01.09 | Blitz       |           1690 |           1726 | 1-0      | https://lichess.org/jfiwbQNH |            3416 |
-| 116 | 2021.01.09 | Rapid       |           1665 |           1633 | 0-1      | https://lichess.org/RwA38LJ1 |            3298 |
-| 117 | 2021.01.09 | Blitz       |           1645 |           1638 | 1-0      | https://lichess.org/EQvIUejE |            3283 |
-| 118 | 2021.01.09 | Bullet      |           1621 |           1644 | 1-0      | https://lichess.org/WBUR6TIZ |            3265 |
-| 119 | 2021.01.09 | Rapid       |           1500 |           1611 | 1-0      | https://lichess.org/gs3Zaktc |            3111 |
-| 120 | 2021.01.09 | Rapid       |           1507 |           1542 | 1-0      | https://lichess.org/bs8qtqcp |            3049 |
-| 121 | 2021.01.10 | Blitz       |           2394 |           2456 | 0-1      | https://lichess.org/1dLRC7Yb |            4850 |
-| 122 | 2021.01.10 | Blitz       |           2195 |           2266 | 0-1      | https://lichess.org/VSkfFhlw |            4461 |
-| 123 | 2021.01.10 | Blitz       |           2175 |           2194 | 1-0      | https://lichess.org/RQn2QR4b |            4369 |
-| 124 | 2021.01.10 | Blitz       |           2134 |           2191 | 1-0      | https://lichess.org/y0rGp32w |            4325 |
-| 125 | 2021.01.10 | Blitz       |           2049 |           2055 | 1-0      | https://lichess.org/Fixba2Qx |            4104 |
-| 126 | 2021.01.10 | Blitz       |           1986 |           2016 | 1-0      | https://lichess.org/FyYZJlAd |            4002 |
-| 127 | 2021.01.10 | Bullet      |           1978 |           1991 | 1-0      | https://lichess.org/OFFwYrJL |            3969 |
-| 128 | 2021.01.10 | Blitz       |           1967 |           1963 | 0-1      | https://lichess.org/QQRt2W5n |            3930 |
-| 129 | 2021.01.10 | Blitz       |           1974 |           1937 | 1-0      | https://lichess.org/8Xv439LT |            3911 |
-| 130 | 2021.01.10 | Rapid       |           1840 |           1828 | 1-0      | https://lichess.org/4g7stm4W |            3668 |
-| 131 | 2021.01.10 | Blitz       |           1803 |           1737 | 1-0      | https://lichess.org/d52r3J1W |            3540 |
-| 132 | 2021.01.10 | Blitz       |           1766 |           1725 | 1-0      | https://lichess.org/JsMwmPOc |            3491 |
-| 133 | 2021.01.10 | Blitz       |           1720 |           1730 | 0-1      | https://lichess.org/14AtC5ax |            3450 |
-| 134 | 2021.01.10 | Bullet      |           1729 |           1713 | 0-1      | https://lichess.org/mIsfJSpO |            3442 |
-| 135 | 2021.01.10 | Blitz       |           1604 |           1658 | 1-0      | https://lichess.org/B4ferYAc |            3262 |
-| 136 | 2021.01.10 | Blitz       |           1453 |           1452 | 0-1      | https://lichess.org/St0986f1 |            2905 |
-| 137 | 2021.01.11 | Bullet      |           1944 |           1996 | 1-0      | https://lichess.org/3DsGfcrI |            3940 |
-| 138 | 2021.01.11 | Blitz       |           1839 |           1837 | 0-1      | https://lichess.org/wKiXLeWD |            3676 |
-| 139 | 2021.01.11 | Bullet      |           1399 |           2057 | 0-1      | https://lichess.org/tgQ3Sd75 |            3456 |
-| 140 | 2021.01.11 | Blitz       |           1731 |           1712 | 1-0      | https://lichess.org/WVDIVmTn |            3443 |
-| 141 | 2021.01.11 | Blitz       |           1732 |           1656 | 1-0      | https://lichess.org/oiK5uhnc |            3388 |
-| 142 | 2021.01.11 | Blitz       |           1924 |           1444 | 1-0      | https://lichess.org/te8d6Vtd |            3368 |
-| 143 | 2021.01.11 | Blitz       |           1613 |           1680 | 1-0      | https://lichess.org/uRnLsL8p |            3293 |
-| 144 | 2021.01.11 | Blitz       |           1500 |           1386 | 0-1      | https://lichess.org/ly7gyU0a |            2886 |
-| 145 | 2021.01.11 | Bullet      |           1544 |           1150 | 1-0      | https://lichess.org/8GK6zqyF |            2694 |
-| 146 | 2021.01.12 | Blitz       |           2222 |           2225 | 1-0      | https://lichess.org/LR8S59XK |            4447 |
-| 147 | 2021.01.12 | Blitz       |           2177 |           2230 | 0-1      | https://lichess.org/44cRpCSu |            4407 |
-| 148 | 2021.01.12 | Blitz       |           1971 |           2050 | 1-0      | https://lichess.org/11MidsKL |            4021 |
-| 149 | 2021.01.12 | Bullet      |           1406 |           2064 | 0-1      | https://lichess.org/ggMezHlt |            3470 |
-| 150 | 2021.01.12 | Rapid       |           1648 |           1633 | 1-0      | https://lichess.org/icMvztOB |            3281 |
-| 151 | 2021.01.12 | Rapid       |           1635 |           1631 | 1-0      | https://lichess.org/CGZE6Oad |            3266 |
-| 152 | 2021.01.12 | Blitz       |           1537 |           1566 | 0-1      | https://lichess.org/uLFedPTq |            3103 |
-| 153 | 2021.01.12 | Blitz       |           1477 |           1519 | 1-0      | https://lichess.org/WkuM03nW |            2996 |
-| 154 | 2021.01.12 | Blitz       |           1471 |           1413 | 1-0      | https://lichess.org/HkoBApQB |            2884 |
-| 155 | 2021.01.13 | Bullet      |           2144 |           2030 | 1-0      | https://lichess.org/oVhtiEdH |            4174 |
-| 156 | 2021.01.13 | Bullet      |           1953 |           1934 | 0-1      | https://lichess.org/8mKoGXnD |            3887 |
-| 157 | 2021.01.13 | Blitz       |           1817 |           1927 | 0-1      | https://lichess.org/KXCI3YiH |            3744 |
-| 158 | 2021.01.13 | Blitz       |           1708 |           1737 | 0-1      | https://lichess.org/88FoHuBf |            3445 |
-| 159 | 2021.01.13 | Bullet      |           1637 |           1634 | 0-1      | https://lichess.org/bRL5a4Q0 |            3271 |
-| 160 | 2021.01.13 | Blitz       |           1635 |           1633 | 0-1      | https://lichess.org/Z7FBmLxt |            3268 |
-| 161 | 2021.01.13 | Bullet      |           1649 |           1581 | 1-0      | https://lichess.org/ZYfaNaZv |            3230 |
-| 162 | 2021.01.13 | Bullet      |           1554 |           1066 | 1-0      | https://lichess.org/AeUjG8XG |            2620 |
-| 163 | 2021.01.13 | Blitz       |           1197 |           1151 | 0-1      | https://lichess.org/lN3ZVv8E |            2348 |
-| 164 | 2021.01.13 | Blitz       |           1030 |            967 | 0-1      | https://lichess.org/d4RHi3Fq |            1997 |
-| 165 | 2021.01.14 | Bullet      |           2289 |           2249 | 1-0      | https://lichess.org/GFPrMuUa |            4538 |
-| 166 | 2021.01.14 | Blitz       |           2193 |           2217 | 1-0      | https://lichess.org/8CxHzvFG |            4410 |
-| 167 | 2021.01.14 | Bullet      |           2159 |           2134 | 1-0      | https://lichess.org/06S8LAFx |            4293 |
-| 168 | 2021.01.14 | Blitz       |           1984 |           2029 | 1-0      | https://lichess.org/rhbtO6tX |            4013 |
-| 169 | 2021.01.14 | Blitz       |           1993 |           2006 | 1-0      | https://lichess.org/FKKrWUWm |            3999 |
-| 170 | 2021.01.14 | Bullet      |           1866 |           1949 | 0-1      | https://lichess.org/KhbJrzD3 |            3815 |
-| 171 | 2021.01.14 | Blitz       |           2103 |           1657 | 1-0      | https://lichess.org/Z6kyQQhB |            3760 |
-| 172 | 2021.01.14 | Blitz       |           1462 |           2174 | 0-1      | https://lichess.org/NzFISaKd |            3636 |
-| 173 | 2021.01.14 | Blitz       |           1710 |           1742 | 1-0      | https://lichess.org/kO2QQ0nt |            3452 |
-| 174 | 2021.01.14 | Bullet      |           1690 |           1685 | 1-0      | https://lichess.org/LUJdCwoe |            3375 |
-| 175 | 2021.01.14 | Blitz       |           1638 |           1633 | 1-0      | https://lichess.org/KHFF4ntX |            3271 |
-| 176 | 2021.01.14 | Rapid       |           1609 |           1636 | 0-1      | https://lichess.org/vaYUr9CX |            3245 |
-| 177 | 2021.01.14 | Rapid       |           1548 |           1535 | 1-0      | https://lichess.org/ENn3b2b3 |            3083 |
-| 178 | 2021.01.14 | Blitz       |           1523 |           1453 | 0-1      | https://lichess.org/uzoYwCXO |            2976 |
-| 179 | 2021.01.14 | Blitz       |           1226 |           1147 | 1-0      | https://lichess.org/aCi0pUny |            2373 |
-| 180 | 2021.01.15 | Bullet      |           2058 |           2114 | 1-0      | https://lichess.org/g7hoHpKi |            4172 |
-| 181 | 2021.01.15 | Blitz       |           2049 |           2093 | 1-0      | https://lichess.org/uLaXpLBa |            4142 |
-| 182 | 2021.01.15 | Bullet      |           2061 |           2050 | 0-1      | https://lichess.org/VlwuNIJ3 |            4111 |
-| 183 | 2021.01.15 | Blitz       |           2112 |           1915 | 1-0      | https://lichess.org/vG2C6Q26 |            4027 |
-| 184 | 2021.01.15 | Rapid       |           2061 |           1940 | 1-0      | https://lichess.org/7bWmj8op |            4001 |
-| 185 | 2021.01.15 | Blitz       |           2019 |           1925 | 1-0      | https://lichess.org/em4yNpaQ |            3944 |
-| 186 | 2021.01.15 | Blitz       |           1732 |           1927 | 0-1      | https://lichess.org/sAgQ1NJd |            3659 |
-| 187 | 2021.01.15 | Blitz       |           1799 |           1780 | 0-1      | https://lichess.org/6LIif1xj |            3579 |
-| 188 | 2021.01.15 | Blitz       |           1988 |           1408 | 0-1      | https://lichess.org/woCggplU |            3396 |
-| 189 | 2021.01.15 | Rapid       |           1701 |           1616 | 0-1      | https://lichess.org/6GtegihL |            3317 |
-| 190 | 2021.01.15 | Rapid       |           1639 |           1591 | 1-0      | https://lichess.org/N429mYJE |            3230 |
-| 191 | 2021.01.15 | Rapid       |           1500 |           1558 | 1-0      | https://lichess.org/2HM5a7la |            3058 |
-| 192 | 2021.01.16 | Bullet      |           2206 |           2262 | 1-0      | https://lichess.org/vFY1mWE7 |            4468 |
-| 193 | 2021.01.16 | Blitz       |           2202 |           2040 | 1-0      | https://lichess.org/l48CDfwg |            4242 |
-| 194 | 2021.01.16 | Bullet      |           1867 |           2363 | 0-1      | https://lichess.org/rYtXbVYj |            4230 |
-| 195 | 2021.01.16 | Blitz       |           2073 |           1949 | 0-1      | https://lichess.org/NTmwyHph |            4022 |
-| 196 | 2021.01.16 | Bullet      |           2016 |           1955 | 1-0      | https://lichess.org/lGPc3JRB |            3971 |
-| 197 | 2021.01.16 | Blitz       |           1935 |           1916 | 1-0      | https://lichess.org/52YIQPGT |            3851 |
-| 198 | 2021.01.16 | Blitz       |           2018 |           1795 | 1-0      | https://lichess.org/jQ1zvjEO |            3813 |
-| 199 | 2021.01.16 | Blitz       |           1905 |           1891 | 0-1      | https://lichess.org/7q9ObrsQ |            3796 |
-| 200 | 2021.01.16 | Blitz       |           1877 |           1899 | 0-1      | https://lichess.org/xkM0lRq2 |            3776 |
-| 201 | 2021.01.16 | Bullet      |           1903 |           1859 | 1-0      | https://lichess.org/OAeAYg52 |            3762 |
-| 202 | 2021.01.16 | Bullet      |           1889 |           1856 | 1-0      | https://lichess.org/9FdDAmno |            3745 |
-| 203 | 2021.01.16 | Bullet      |           1665 |           1563 | 0-1      | https://lichess.org/Z2a0w8bn |            3228 |
-| 204 | 2021.01.16 | Bullet      |           1567 |           1654 | 0-1      | https://lichess.org/4kEk1ONp |            3221 |
-| 205 | 2021.01.16 | Blitz       |           1466 |           1471 | 1-0      | https://lichess.org/ydthoiS3 |            2937 |
-| 206 | 2021.01.16 | Blitz       |           1358 |           1392 | 0-1      | https://lichess.org/ZZ3W6Tmz |            2750 |
-| 207 | 2021.01.17 | Blitz       |           2245 |           2225 | 1-0      | https://lichess.org/gZn1nZSg |            4470 |
-| 208 | 2021.01.17 | Bullet      |           2090 |           2138 | 1-0      | https://lichess.org/PmUfL3Zv |            4228 |
-| 209 | 2021.01.17 | Blitz       |           2110 |           2104 | 1-0      | https://lichess.org/JyGOJYW9 |            4214 |
-| 210 | 2021.01.17 | Blitz       |           1912 |           2185 | 0-1      | https://lichess.org/HBPq8cVW |            4097 |
-| 211 | 2021.01.17 | Blitz       |           2047 |           1988 | 1-0      | https://lichess.org/vVPejxbf |            4035 |
-| 212 | 2021.01.17 | Bullet      |           1936 |           1826 | 1-0      | https://lichess.org/cyMOJQkq |            3762 |
-| 213 | 2021.01.17 | Blitz       |           1782 |           1813 | 1-0      | https://lichess.org/wuw3y4Fe |            3595 |
-| 214 | 2021.01.17 | Blitz       |           1707 |           1877 | 0-1      | https://lichess.org/9t1QT0zu |            3584 |
-| 215 | 2021.01.17 | Blitz       |           1785 |           1797 | 1-0      | https://lichess.org/Ybe9lOx7 |            3582 |
-| 216 | 2021.01.17 | Bullet      |           1746 |           1694 | 1-0      | https://lichess.org/SZSbYGIB |            3440 |
-| 217 | 2021.01.18 | Blitz       |           2241 |           2320 | 0-1      | https://lichess.org/Y4TH55Xr |            4561 |
-| 218 | 2021.01.18 | Blitz       |           2268 |           2281 | 0-1      | https://lichess.org/RAXJW1xv |            4549 |
-| 219 | 2021.01.18 | Blitz       |           2026 |           2073 | 1-0      | https://lichess.org/bsNFiX5M |            4099 |
-| 220 | 2021.01.18 | Blitz       |           1961 |           1926 | 1-0      | https://lichess.org/oMdtV8au |            3887 |
-| 221 | 2021.01.18 | Bullet      |           1875 |           1840 | 1-0      | https://lichess.org/QyyEMbUP |            3715 |
-| 222 | 2021.01.18 | Bullet      |           1840 |           1845 | 1-0      | https://lichess.org/dAw6nLpg |            3685 |
-| 223 | 2021.01.18 | Bullet      |           1812 |           1819 | 1-0      | https://lichess.org/TfJleaJH |            3631 |
-| 224 | 2021.01.18 | Bullet      |           1895 |           1614 | 1-0      | https://lichess.org/Cf6SzMhM |            3509 |
-| 225 | 2021.01.18 | Blitz       |           1763 |           1743 | 1-0      | https://lichess.org/twidhbfZ |            3506 |
-| 226 | 2021.01.18 | Blitz       |           1622 |           1623 | 0-1      | https://lichess.org/BviV3SbX |            3245 |
-| 227 | 2021.01.18 | Bullet      |           1492 |           1492 | 1-0      | https://lichess.org/QCh2ywrP |            2984 |
-| 228 | 2021.01.18 | Blitz       |           1530 |           1145 | 1-0      | https://lichess.org/BB27wDaB |            2675 |
-| 229 | 2021.01.19 | Blitz       |           2136 |           2104 | 0-1      | https://lichess.org/5WhgmvO0 |            4240 |
-| 230 | 2021.01.19 | Bullet      |           2099 |           2064 | 0-1      | https://lichess.org/NkIbzHzq |            4163 |
-| 231 | 2021.01.19 | Bullet      |           2034 |           2112 | 0-1      | https://lichess.org/mhbCJD9O |            4146 |
-| 232 | 2021.01.19 | Blitz       |           2066 |           2038 | 1-0      | https://lichess.org/ICNsPbq7 |            4104 |
-| 233 | 2021.01.19 | Rapid       |           2075 |           2017 | 1-0      | https://lichess.org/9WMIXMou |            4092 |
-| 234 | 2021.01.19 | Blitz       |           1939 |           2030 | 0-1      | https://lichess.org/09pI02bj |            3969 |
-| 235 | 2021.01.19 | Bullet      |           1962 |           1921 | 0-1      | https://lichess.org/08jEO8dg |            3883 |
-| 236 | 2021.01.19 | Blitz       |           1880 |           1893 | 1-0      | https://lichess.org/UHJ3DbJ0 |            3773 |
-| 237 | 2021.01.19 | Blitz       |           1860 |           1804 | 1-0      | https://lichess.org/hZ4kJtMj |            3664 |
-| 238 | 2021.01.19 | Blitz       |           1787 |           1778 | 0-1      | https://lichess.org/kYt8t9wT |            3565 |
-| 239 | 2021.01.19 | Rapid       |           1763 |           1687 | 1-0      | https://lichess.org/1HKfTmqg |            3450 |
-| 240 | 2021.01.19 | Blitz       |           1740 |           1692 | 1-0      | https://lichess.org/SJs1KOUh |            3432 |
-| 241 | 2021.01.19 |             |           1767 |           1586 | 1-0      | https://lichess.org/RDYpF1az |            3353 |
-| 242 | 2021.01.19 | Rapid       |           1689 |           1659 | 1-0      | https://lichess.org/q8IVnoBx |            3348 |
-| 243 | 2021.01.19 | Blitz       |           1590 |           1702 | 1-0      | https://lichess.org/hm62bGj5 |            3292 |
-| 244 | 2021.01.19 | Rapid       |           1633 |           1625 | 1-0      | https://lichess.org/YDrxWxh3 |            3258 |
-| 245 | 2021.01.19 | Bullet      |           1533 |           1598 | 0-1      | https://lichess.org/HFFv1GJk |            3131 |
-| 246 | 2021.01.19 | Bullet      |           1158 |           1142 | 1-0      | https://lichess.org/BLd05CkX |            2300 |
-| 247 | 2021.01.20 | Bullet      |           2208 |           2374 | 1-0      | https://lichess.org/2ObnKnhG |            4582 |
-| 248 | 2021.01.20 | Bullet      |           2109 |           2143 | 0-1      | https://lichess.org/8BkadYqP |            4252 |
-| 249 | 2021.01.20 | Blitz       |           1966 |           1966 | 1-0      | https://lichess.org/feMmHXVi |            3932 |
-| 250 | 2021.01.20 | Blitz       |           1847 |           1863 | 1-0      | https://lichess.org/aut8vnM0 |            3710 |
-| 251 | 2021.01.20 | Blitz       |           1966 |           1569 | 1-0      | https://lichess.org/AXs6dbOB |            3535 |
-| 252 | 2021.01.20 | Blitz       |           2204 |           1322 | 1-0      | https://lichess.org/QxDNpFgl |            3526 |
-| 253 | 2021.01.20 | Rapid       |           1729 |           1743 | 0-1      | https://lichess.org/lJk6CpGo |            3472 |
-| 254 | 2021.01.20 | Blitz       |           1692 |           1711 | 1-0      | https://lichess.org/bWoSJRRf |            3403 |
-| 255 | 2021.01.20 | Blitz       |           1683 |           1519 | 1-0      | https://lichess.org/gr7MfXt9 |            3202 |
-| 256 | 2021.01.20 | Bullet      |           2142 |            845 | 1-0      | https://lichess.org/ipPaO5Ov |            2987 |
-| 257 | 2021.01.20 | Rapid       |           1336 |           1639 | 1-0      | https://lichess.org/GD4DCegp |            2975 |
-| 258 | 2021.01.20 | Rapid       |           1474 |           1485 | 1-0      | https://lichess.org/Z9XtjMP0 |            2959 |
-| 259 | 2021.01.20 | Rapid       |           1375 |           1387 | 0-1      | https://lichess.org/FOhYUjvi |            2762 |
-| 260 | 2021.01.21 | Blitz       |           2179 |           2228 | 1-0      | https://lichess.org/zP6iAlBy |            4407 |
-| 261 | 2021.01.21 | Bullet      |           2006 |           1986 | 1-0      | https://lichess.org/pjtHlSgq |            3992 |
-| 262 | 2021.01.21 | Rapid       |           2001 |           1966 | 1-0      | https://lichess.org/lPQaweC7 |            3967 |
-| 263 | 2021.01.21 | Blitz       |           1946 |           2021 | 0-1      | https://lichess.org/UubX42CK |            3967 |
-| 264 | 2021.01.21 | Bullet      |           1861 |           1899 | 0-1      | https://lichess.org/f8L84hR7 |            3760 |
-| 265 | 2021.01.21 | Blitz       |           1873 |           1885 | 1-0      | https://lichess.org/fe7RuGS2 |            3758 |
-| 266 | 2021.01.21 | Blitz       |           1856 |           1891 | 0-1      | https://lichess.org/EPCfUqMh |            3747 |
-| 267 | 2021.01.21 | Bullet      |           2041 |           1595 | 1-0      | https://lichess.org/OMZaXglO |            3636 |
-| 268 | 2021.01.21 | Blitz       |           1826 |           1783 | 1-0      | https://lichess.org/ME6GVKTR |            3609 |
-| 269 | 2021.01.21 | Blitz       |           1823 |           1778 | 1-0      | https://lichess.org/PkvB88mw |            3601 |
-| 270 | 2021.01.21 | Rapid       |           1642 |           1654 | 0-1      | https://lichess.org/6ZV5qk82 |            3296 |
-| 271 | 2021.01.21 | Blitz       |           1641 |           1640 | 0-1      | https://lichess.org/idCJqSkF |            3281 |
-| 272 | 2021.01.21 | Blitz       |           1484 |           1514 | 1-0      | https://lichess.org/Jh0PLWyX |            2998 |
-| 273 | 2021.01.21 | Blitz       |           1440 |           1353 | 1-0      | https://lichess.org/tnkJfZDH |            2793 |
-| 274 | 2021.01.21 | Blitz       |           1297 |           1231 | 1-0      | https://lichess.org/Lddx2LY5 |            2528 |
-| 275 | 2021.01.21 | Bullet      |           1077 |           1013 | 1-0      | https://lichess.org/KFvX4KdK |            2090 |
-| 276 | 2021.01.22 | Rapid       |           2114 |           2159 | 1-0      | https://lichess.org/8eSmkumw |            4273 |
-| 277 | 2021.01.22 | Bullet      |           2040 |           2054 | 1-0      | https://lichess.org/7rYUAmQm |            4094 |
-| 278 | 2021.01.22 | Blitz       |           2072 |           1867 | 1-0      | https://lichess.org/AJDYn0Nw |            3939 |
-| 279 | 2021.01.22 | Blitz       |           2083 |           1797 | 1-0      | https://lichess.org/A9Rdlpyl |            3880 |
-| 280 | 2021.01.22 | Blitz       |           1897 |           1933 | 0-1      | https://lichess.org/OzH5v6vj |            3830 |
-| 281 | 2021.01.22 | Bullet      |           1855 |           1897 | 1-0      | https://lichess.org/sQ8A83VK |            3752 |
-| 282 | 2021.01.22 | Rapid       |           1849 |           1843 | 1-0      | https://lichess.org/Mg7mcpai |            3692 |
-| 283 | 2021.01.22 | Blitz       |           1880 |           1767 | 1-0      | https://lichess.org/zvKJbFFp |            3647 |
-| 284 | 2021.01.22 | Blitz       |           1807 |           1792 | 1-0      | https://lichess.org/3B7Z7Ziq |            3599 |
-| 285 | 2021.01.22 | Rapid       |           1789 |           1796 | 1-0      | https://lichess.org/JHpnVFk8 |            3585 |
-| 286 | 2021.01.22 | Blitz       |           1775 |           1797 | 0-1      | https://lichess.org/VJ7M9kLH |            3572 |
-| 287 | 2021.01.22 | Blitz       |           1735 |           1713 | 0-1      | https://lichess.org/VfMt2hZJ |            3448 |
-| 288 | 2021.01.22 | Rapid       |           1721 |           1686 | 1-0      | https://lichess.org/dv3GIwnl |            3407 |
-| 289 | 2021.01.22 | Rapid       |           1642 |           1699 | 0-1      | https://lichess.org/Klsjll3A |            3341 |
-| 290 | 2021.01.22 | Blitz       |           1634 |           1629 | 0-1      | https://lichess.org/gEepspv6 |            3263 |
-| 291 | 2021.01.22 | Blitz       |           1583 |           1474 | 1-0      | https://lichess.org/ucRFdAse |            3057 |
-| 292 | 2021.01.22 | Blitz       |           1464 |           1463 | 0-1      | https://lichess.org/r0t9k08S |            2927 |
-| 293 | 2021.01.22 | Bullet      |           1024 |           1764 | 0-1      | https://lichess.org/VbvIFHt5 |            2788 |
-| 294 | 2021.01.23 | Blitz       |           2106 |           2117 | 1-0      | https://lichess.org/WCWTlaeF |            4223 |
-| 295 | 2021.01.23 | Blitz       |           2037 |           2041 | 1-0      | https://lichess.org/b1LytlFp |            4078 |
-| 296 | 2021.01.23 | Bullet      |           1956 |           1949 | 1-0      | https://lichess.org/4KPTGrQY |            3905 |
-| 297 | 2021.01.23 | Bullet      |           1937 |           1929 | 1-0      | https://lichess.org/HGQQpSjx |            3866 |
-| 298 | 2021.01.23 | Rapid       |           2049 |           1801 | 1-0      | https://lichess.org/vJp1moyP |            3850 |
-| 299 | 2021.01.23 | Blitz       |           1846 |           1899 | 1-0      | https://lichess.org/MSKk22ru |            3745 |
-| 300 | 2021.01.23 | Blitz       |           1801 |           1801 | 0-1      | https://lichess.org/qamaxK2R |            3602 |
-| 301 | 2021.01.23 | Bullet      |           1749 |           1765 | 0-1      | https://lichess.org/Nu3Xi5Ak |            3514 |
-| 302 | 2021.01.23 | Blitz       |           1539 |           1517 | 1-0      | https://lichess.org/FIL1oDzY |            3056 |
-| 303 | 2021.01.23 | Bullet      |           1374 |           1259 | 0-1      | https://lichess.org/5fkYXE4o |            2633 |
-| 304 | 2021.01.23 | Rapid       |           1167 |           1204 | 1-0      | https://lichess.org/TB85TP1Y |            2371 |
-| 305 | 2021.01.24 | Blitz       |           2504 |           2491 | 0-1      | https://lichess.org/MkPl9Ene |            4995 |
-| 306 | 2021.01.24 | Bullet      |           2360 |           2403 | 1-0      | https://lichess.org/6N3GeW40 |            4763 |
-| 307 | 2021.01.24 | Bullet      |           2189 |           2573 | 0-1      | https://lichess.org/4oLZx4PL |            4762 |
-| 308 | 2021.01.24 | Bullet      |           2096 |           1951 | 0-1      | https://lichess.org/NkXRe5cb |            4047 |
-| 309 | 2021.01.24 | Bullet      |           1767 |           1763 | 1-0      | https://lichess.org/PBPyUo67 |            3530 |
-| 310 | 2021.01.24 | Rapid       |           1731 |           1722 | 1-0      | https://lichess.org/kLqW1idM |            3453 |
-| 311 | 2021.01.24 | Bullet      |           1523 |           1518 | 0-1      | https://lichess.org/rmSqVkWQ |            3041 |
-| 312 | 2021.01.24 | Bullet      |           1391 |           1315 | 1-0      | https://lichess.org/7DJvYZMS |            2706 |
-| 313 | 2021.01.24 | Blitz       |           1024 |           1072 | 0-1      | https://lichess.org/MMcG9RfQ |            2096 |
-| 314 | 2021.01.25 | Blitz       |           2440 |           2634 | 0-1      | https://lichess.org/htF9TPQM |            5074 |
-| 315 | 2021.01.25 | Blitz       |           2142 |           2078 | 1-0      | https://lichess.org/QX2VANa5 |            4220 |
-| 316 | 2021.01.25 | Blitz       |           1793 |           1760 | 1-0      | https://lichess.org/pzyiP7op |            3553 |
-| 317 | 2021.01.25 | Blitz       |           1679 |           1662 | 1-0      | https://lichess.org/qVZYhA5v |            3341 |
-| 318 | 2021.01.25 | Blitz       |           1545 |           1554 | 1-0      | https://lichess.org/0B05CFfc |            3099 |
-| 319 | 2021.01.25 | Blitz       |           1119 |           1124 | 0-1      | https://lichess.org/a3iGtdoJ |            2243 |
-| 320 | 2021.01.26 | Bullet      |           2000 |           2488 | 0-1      | https://lichess.org/Jqs4bmtW |            4488 |
-| 321 | 2021.01.26 | Blitz       |           2042 |           2081 | 1-0      | https://lichess.org/fHYh5QFy |            4123 |
-| 322 | 2021.01.26 | Bullet      |           1916 |           1955 | 1-0      | https://lichess.org/rV91KISr |            3871 |
-| 323 | 2021.01.26 | Bullet      |           1769 |           1918 | 0-1      | https://lichess.org/scc0Q3aG |            3687 |
-| 324 | 2021.01.26 | Bullet      |           1525 |           1949 | 0-1      | https://lichess.org/lwfYcKQR |            3474 |
-| 325 | 2021.01.26 | Blitz       |           1661 |           1605 | 1-0      | https://lichess.org/kWYufU8n |            3266 |
-| 326 | 2021.01.26 | Blitz       |           1628 |           1621 | 0-1      | https://lichess.org/MgMejpIs |            3249 |
-| 327 | 2021.01.26 | Blitz       |           1650 |           1542 | 1-0      | https://lichess.org/hZP5CG9c |            3192 |
-| 328 | 2021.01.26 | Bullet      |           1848 |            844 | 1-0      | https://lichess.org/sVJmUU7v |            2692 |
-| 329 | 2021.01.26 | Rapid       |           1017 |           1078 | 0-1      | https://lichess.org/61JaFU5Q |            2095 |
-| 330 | 2021.01.27 | Bullet      |           2212 |           2192 | 1-0      | https://lichess.org/JIi84Dch |            4404 |
-| 331 | 2021.01.27 | Blitz       |           1811 |           2477 | 0-1      | https://lichess.org/LY5WQjXL |            4288 |
-| 332 | 2021.01.27 | Bullet      |           2105 |           2111 | 1-0      | https://lichess.org/2SFTYXSJ |            4216 |
-| 333 | 2021.01.27 | Blitz       |           1994 |           2001 | 0-1      | https://lichess.org/mf4MYQxm |            3995 |
-| 334 | 2021.01.27 | Bullet      |           1944 |           1945 | 1-0      | https://lichess.org/S18LATTo |            3889 |
-| 335 | 2021.01.27 | Blitz       |           1931 |           1919 | 0-1      | https://lichess.org/Vmhhnpp6 |            3850 |
-| 336 | 2021.01.27 | Blitz       |           1894 |           1741 | 1-0      | https://lichess.org/ciFTUCUp |            3635 |
-| 337 | 2021.01.27 | Bullet      |           1765 |           1750 | 1-0      | https://lichess.org/VmXvmaXi |            3515 |
-| 338 | 2021.01.27 | Blitz       |           1759 |           1751 | 1-0      | https://lichess.org/BMo7MWbU |            3510 |
-| 339 | 2021.01.27 | Blitz       |           1957 |           1089 | 1-0      | https://lichess.org/3IyCRzex |            3046 |
-| 340 | 2021.01.27 | Bullet      |           1390 |           1507 | 1-0      | https://lichess.org/xmbBYfr5 |            2897 |
-| 341 | 2021.01.27 | Blitz       |           1164 |           1223 | 0-1      | https://lichess.org/BdVb9s2D |            2387 |
-| 342 | 2021.01.28 | Bullet      |           2293 |           2226 | 1-0      | https://lichess.org/2awUZzov |            4519 |
-| 343 | 2021.01.28 | Blitz       |           2061 |           2401 | 0-1      | https://lichess.org/oqgp7jiQ |            4462 |
-| 344 | 2021.01.28 | Bullet      |           2027 |           2333 | 1-0      | https://lichess.org/bnneBOj4 |            4360 |
-| 345 | 2021.01.28 | Bullet      |           2286 |           1770 | 1-0      | https://lichess.org/useNsImh |            4056 |
-| 346 | 2021.01.28 | Blitz       |           2122 |           1906 | 1-0      | https://lichess.org/bs1KN6Eh |            4028 |
-| 347 | 2021.01.28 | Bullet      |           1911 |           1913 | 1-0      | https://lichess.org/qjVYV4WH |            3824 |
-| 348 | 2021.01.28 | Blitz       |           1861 |           1868 | 0-1      | https://lichess.org/qpL1WTLG |            3729 |
-| 349 | 2021.01.28 | Blitz       |           1766 |           1873 | 1-0      | https://lichess.org/IrQNikLe |            3639 |
-| 350 | 2021.01.28 | Blitz       |           1749 |           1841 | 0-1      | https://lichess.org/Z2J2uYXE |            3590 |
-| 351 | 2021.01.28 | Bullet      |           1659 |           1795 | 0-1      | https://lichess.org/qAgrIs5p |            3454 |
-| 352 | 2021.01.28 | Rapid       |           1617 |           1604 | 0-1      | https://lichess.org/y9N7RWP6 |            3221 |
-| 353 | 2021.01.28 | Bullet      |           1528 |           1495 | 1-0      | https://lichess.org/qWTlnAaM |            3023 |
-| 354 | 2021.01.28 | Blitz       |           1449 |           1441 | 1-0      | https://lichess.org/UuCFEXaS |            2890 |
-| 355 | 2021.01.28 | Bullet      |           1297 |           1337 | 0-1      | https://lichess.org/8XgcHDet |            2634 |
-| 356 | 2021.01.29 | Bullet      |           2355 |           2238 | 1-0      | https://lichess.org/AiZ1HFzH |            4593 |
-| 357 | 2021.01.29 | Blitz       |           1980 |           1963 | 1-0      | https://lichess.org/ut7jVgrn |            3943 |
-| 358 | 2021.01.29 | Bullet      |           1911 |           1959 | 0-1      | https://lichess.org/q8cla5i9 |            3870 |
-| 359 | 2021.01.29 | Blitz       |           1871 |           1900 | 1-0      | https://lichess.org/TmVgnLFW |            3771 |
-| 360 | 2021.01.29 | Blitz       |           1820 |           1824 | 0-1      | https://lichess.org/g2jnbUDd |            3644 |
-| 361 | 2021.01.29 | Rapid       |           1769 |           1739 | 0-1      | https://lichess.org/QJEjVDb8 |            3508 |
-| 362 | 2021.01.29 | Bullet      |           1730 |           1737 | 1-0      | https://lichess.org/CyJmgnD9 |            3467 |
-| 363 | 2021.01.29 | Blitz       |           1844 |           1327 | 1-0      | https://lichess.org/J4ZkXE9d |            3171 |
-| 364 | 2021.01.29 | Blitz       |           1511 |           1452 | 1-0      | https://lichess.org/ICL9kD1D |            2963 |
-| 365 | 2021.01.29 | Bullet      |           1483 |           1421 | 1-0      | https://lichess.org/7gZ4TNFo |            2904 |
-| 366 | 2021.01.29 | Bullet      |           1193 |           1614 | 0-1      | https://lichess.org/MVZssJW5 |            2807 |
-| 367 | 2021.01.29 | Blitz       |           1125 |           1628 | 0-1      | https://lichess.org/t26HRjGF |            2753 |
-| 368 | 2021.01.29 | Blitz       |           1375 |           1264 | 1-0      | https://lichess.org/CONH6yOW |            2639 |
-| 369 | 2021.01.30 | Blitz       |           2119 |           2092 | 0-1      | https://lichess.org/j6Zy7lv3 |            4211 |
-| 370 | 2021.01.30 | Bullet      |           2049 |           1918 | 1-0      | https://lichess.org/8oXAZGyc |            3967 |
-| 371 | 2021.01.30 | Blitz       |           1965 |           1915 | 1-0      | https://lichess.org/cuSdRy1N |            3880 |
-| 372 | 2021.01.30 | Blitz       |           1881 |           1902 | 0-1      | https://lichess.org/DfUkKViq |            3783 |
-| 373 | 2021.01.30 | Rapid       |           1812 |           1795 | 0-1      | https://lichess.org/uI9lJ9JB |            3607 |
-| 374 | 2021.01.30 | Rapid       |           1769 |           1710 | 0-1      | https://lichess.org/BVElOWnU |            3479 |
-| 375 | 2021.01.30 | Blitz       |           1735 |           1302 | 1-0      | https://lichess.org/SCrKKJue |            3037 |
-| 376 | 2021.01.30 | Bullet      |           1355 |           1409 | 0-1      | https://lichess.org/C9WmGQ8N |            2764 |
-| 377 | 2021.01.30 | Blitz       |           1181 |           1120 | 1-0      | https://lichess.org/sNLI5oC6 |            2301 |
-| 378 | 2021.01.30 | Blitz       |            794 |            857 | 0-1      | https://lichess.org/GIlN3eH9 |            1651 |
-| 379 | 2021.01.31 | Bullet      |           2460 |           2434 | 1-0      | https://lichess.org/h50HIs7S |            4894 |
-| 380 | 2021.01.31 | Blitz       |           2265 |           2251 | 0-1      | https://lichess.org/iG9EwfLc |            4516 |
-| 381 | 2021.01.31 | Blitz       |           1947 |           2085 | 1-0      | https://lichess.org/aU2rDGaw |            4032 |
-| 382 | 2021.01.31 | Bullet      |           2060 |           1891 | 0-1      | https://lichess.org/opfSHHeL |            3951 |
-| 383 | 2021.01.31 | Blitz       |           1817 |           1863 | 0-1      | https://lichess.org/lzfjRmbh |            3680 |
-| 384 | 2021.01.31 | Blitz       |           1773 |           1897 | 1-0      | https://lichess.org/7reOv6rv |            3670 |
-| 385 | 2021.01.31 | Blitz       |           1838 |           1798 | 1-0      | https://lichess.org/W4W3143K |            3636 |
-| 386 | 2021.01.31 | Bullet      |           1814 |           1802 | 1-0      | https://lichess.org/5wBmJyrf |            3616 |
-| 387 | 2021.01.31 | Blitz       |           1728 |           1719 | 1-0      | https://lichess.org/aWhBFjls |            3447 |
-| 388 | 2021.01.31 | Blitz       |           1642 |           1659 | 1-0      | https://lichess.org/ZlBf04tI |            3301 |
-| 389 | 2021.01.31 | Blitz       |           1565 |           1635 | 1-0      | https://lichess.org/wBu0qOUz |            3200 |
-| 390 | 2021.01.31 | Blitz       |           1607 |           1574 | 1-0      | https://lichess.org/uh11ziLq |            3181 |
-| 391 | 2021.01.31 | Rapid       |           1538 |           1614 | 0-1      | https://lichess.org/BeGuvmDL |            3152 |
-| 392 | 2021.01.31 | Bullet      |           1075 |           2027 | 0-1      | https://lichess.org/gvhQDNAd |            3102 |
-| 393 | 2021.01.31 | Rapid       |           1513 |           1492 | 1-0      | https://lichess.org/2N3YwTjK |            3005 |
-| 394 | 2021.01.31 | Blitz       |           1500 |           1500 | 1-0      | https://lichess.org/I3WzVUYY |            3000 |
-| 395 | 2021.01.31 | Blitz       |           1369 |           1343 | 1-0      | https://lichess.org/Laljws3p |            2712 |
-| 396 | 2021.01.31 | Blitz       |           1276 |           1312 | 1-0      | https://lichess.org/5wUlQAAP |            2588 |
-| 397 | 2021.01.31 | Blitz       |           1051 |           1024 | 1-0      | https://lichess.org/L7mMn17u |            2075 |
+|     | Date       | Game Type   |   White Rating |   Black Rating | Result   | Site                         |
+|----:|:-----------|:------------|---------------:|---------------:|:---------|:-----------------------------|
+|   0 | 2021.01.01 | Blitz       |           2125 |           2167 | 0-1      | https://lichess.org/4XVIHf2n |
+|   1 | 2021.01.01 | Bullet      |           2113 |           2074 | 1-0      | https://lichess.org/iZH4fhlH |
+|   2 | 2021.01.01 | Blitz       |           2026 |           1904 | 1-0      | https://lichess.org/sye0DVUN |
+|   3 | 2021.01.01 | Bullet      |           1870 |           1859 | 1-0      | https://lichess.org/wz4qSN1J |
+|   4 | 2021.01.01 | Blitz       |           1989 |           1667 | 1-0      | https://lichess.org/25AeBuxn |
+|   5 | 2021.01.01 | Bullet      |           1937 |           1670 | 1-0      | https://lichess.org/r1Uebhws |
+|   6 | 2021.01.01 | Blitz       |           1796 |           1769 | 0-1      | https://lichess.org/iBIzg2N1 |
+|   7 | 2021.01.01 | Blitz       |           1974 |           1507 | 1-0      | https://lichess.org/6OxlU62g |
+|   8 | 2021.01.01 | Blitz       |           1771 |           1697 | 1-0      | https://lichess.org/2nalQlUw |
+|   9 | 2021.01.01 | Bullet      |           1570 |           1582 | 0-1      | https://lichess.org/UN6pzEzG |
+|  10 | 2021.01.01 | Blitz       |           1461 |           1482 | 0-1      | https://lichess.org/CrKxBkFR |
+|  11 | 2021.01.01 | Rapid       |           1532 |           1386 | 1-0      | https://lichess.org/xrvCxbuC |
+|  12 | 2021.01.01 | Blitz       |           1334 |           1527 | 0-1      | https://lichess.org/9IN0JuDp |
+|  13 | 2021.01.01 | Bullet      |           1261 |           1498 | 0-1      | https://lichess.org/iY8DUqrT |
+|  14 | 2021.01.01 | Blitz       |           1377 |           1301 | 1-0      | https://lichess.org/7HNEsmRA |
+|  15 | 2021.01.02 | Bullet      |           2573 |           2611 | 1-0      | https://lichess.org/cv1Zafb8 |
+|  16 | 2021.01.02 | Blitz       |           2204 |           2305 | 1-0      | https://lichess.org/f03CZec3 |
+|  17 | 2021.01.02 | Blitz       |           1968 |           2001 | 0-1      | https://lichess.org/pm2RFCuW |
+|  18 | 2021.01.02 | Blitz       |           1781 |           1726 | 0-1      | https://lichess.org/917oEJpj |
+|  19 | 2021.01.02 | Rapid       |           1422 |           1617 | 1-0      | https://lichess.org/ppQ4zItw |
+|  20 | 2021.01.03 | Bullet      |           2204 |           2298 | 0-1      | https://lichess.org/RHXDOoxL |
+|  21 | 2021.01.03 | Bullet      |           1996 |           2131 | 0-1      | https://lichess.org/oxsN1y1e |
+|  22 | 2021.01.03 | Bullet      |           2071 |           2032 | 1-0      | https://lichess.org/8sjB2Uv7 |
+|  23 | 2021.01.03 | Rapid       |           2057 |           2000 | 0-1      | https://lichess.org/AOfbImSb |
+|  24 | 2021.01.03 | Blitz       |           1896 |           1902 | 1-0      | https://lichess.org/8bSWWznF |
+|  25 | 2021.01.03 | Bullet      |           1786 |           1762 | 0-1      | https://lichess.org/7wePXZnj |
+|  26 | 2021.01.03 | Bullet      |           1695 |           1776 | 0-1      | https://lichess.org/Q9PRpFst |
+|  27 | 2021.01.03 | Blitz       |           1714 |           1708 | 1-0      | https://lichess.org/mrK7DfEP |
+|  28 | 2021.01.03 | Blitz       |           1671 |           1591 | 1-0      | https://lichess.org/o0TWDSl1 |
+|  29 | 2021.01.03 | Rapid       |           1556 |           1558 | 1-0      | https://lichess.org/SbjBln5o |
+|  30 | 2021.01.03 | Blitz       |           1540 |           1530 | 0-1      | https://lichess.org/kx6uvlxQ |
+|  31 | 2021.01.03 | Rapid       |           1390 |           1589 | 0-1      | https://lichess.org/wWFLL9tC |
+|  32 | 2021.01.03 | Rapid       |           1486 |           1375 | 1-0      | https://lichess.org/kBiVM1qg |
+|  33 | 2021.01.03 | Blitz       |           1372 |           1343 | 1-0      | https://lichess.org/U5pz4HEE |
+|  34 | 2021.01.03 | Blitz       |           1309 |           1303 | 0-1      | https://lichess.org/RsJHcJIW |
+|  35 | 2021.01.04 | Bullet      |           2159 |           2733 | 0-1      | https://lichess.org/kEHCtaj3 |
+|  36 | 2021.01.04 | Blitz       |           2203 |           2237 | 0-1      | https://lichess.org/xqgfLkW5 |
+|  37 | 2021.01.04 | Bullet      |           2193 |           2218 | 0-1      | https://lichess.org/hKcD4SGL |
+|  38 | 2021.01.04 | Blitz       |           2083 |           2073 | 1-0      | https://lichess.org/fgQ7vu7s |
+|  39 | 2021.01.04 | Blitz       |           2022 |           1958 | 0-1      | https://lichess.org/8XoTFvhu |
+|  40 | 2021.01.04 | Rapid       |           1838 |           1822 | 1-0      | https://lichess.org/0kqPhztq |
+|  41 | 2021.01.04 | Blitz       |           1829 |           1827 | 0-1      | https://lichess.org/676HDD25 |
+|  42 | 2021.01.04 | Blitz       |           1539 |           2040 | 0-1      | https://lichess.org/AEUo9JdN |
+|  43 | 2021.01.04 | Rapid       |           1463 |           1611 | 0-1      | https://lichess.org/vsyNPepl |
+|  44 | 2021.01.04 | Blitz       |           1795 |           1210 | 0-1      | https://lichess.org/z5LytCj4 |
+|  45 | 2021.01.04 | Blitz       |           1457 |           1424 | 1-0      | https://lichess.org/eFeO3WkF |
+|  46 | 2021.01.04 | Rapid       |           1334 |           1500 | 0-1      | https://lichess.org/5tGGoR5x |
+|  47 | 2021.01.04 | Rapid       |           1401 |           1413 | 1-0      | https://lichess.org/lRYzhqnZ |
+|  48 | 2021.01.04 | Blitz       |           1322 |           1326 | 0-1      | https://lichess.org/5SvJeAXl |
+|  49 | 2021.01.04 | Blitz       |           1287 |           1250 | 0-1      | https://lichess.org/Rr0u8zwi |
+|  50 | 2021.01.04 | Blitz       |           1191 |           1197 | 1-0      | https://lichess.org/qfpQI6nl |
+|  51 | 2021.01.05 | Bullet      |           2155 |           2170 | 1-0      | https://lichess.org/ZDorTj0b |
+|  52 | 2021.01.05 | Blitz       |           2169 |           2145 | 0-1      | https://lichess.org/BVoXHc8R |
+|  53 | 2021.01.05 | Blitz       |           2094 |           2052 | 0-1      | https://lichess.org/92jRWUBq |
+|  54 | 2021.01.05 | Blitz       |           2200 |           1915 | 1-0      | https://lichess.org/zPP9rDlp |
+|  55 | 2021.01.05 | Blitz       |           2097 |           1920 | 1-0      | https://lichess.org/poYPRMmr |
+|  56 | 2021.01.05 | Blitz       |           1897 |           1932 | 0-1      | https://lichess.org/DWSAY7pm |
+|  57 | 2021.01.05 | Bullet      |           1848 |           1817 | 1-0      | https://lichess.org/48gdDeka |
+|  58 | 2021.01.05 | Bullet      |           1798 |           1728 | 1-0      | https://lichess.org/CGcM1y3k |
+|  59 | 2021.01.05 | Blitz       |           1748 |           1770 | 1-0      | https://lichess.org/1StlCcj1 |
+|  60 | 2021.01.05 | Blitz       |           1707 |           1808 | 1-0      | https://lichess.org/Iivvm0FZ |
+|  61 | 2021.01.05 | Bullet      |           1626 |           1607 | 1-0      | https://lichess.org/zt2ofK6R |
+|  62 | 2021.01.05 | Blitz       |           1232 |           1859 | 0-1      | https://lichess.org/QV2Ob3Pr |
+|  63 | 2021.01.05 | Rapid       |           1548 |           1534 | 0-1      | https://lichess.org/KSqACEUB |
+|  64 | 2021.01.05 | Blitz       |           1478 |           1533 | 1-0      | https://lichess.org/TxX9SmPO |
+|  65 | 2021.01.05 | Blitz       |           1506 |           1498 | 0-1      | https://lichess.org/DBE6gSWZ |
+|  66 | 2021.01.05 | Blitz       |           1499 |           1499 | 1-0      | https://lichess.org/6EOB7Myw |
+|  67 | 2021.01.05 | Blitz       |           1480 |           1459 | 0-1      | https://lichess.org/iJDQcrIg |
+|  68 | 2021.01.05 | Bullet      |           1455 |           1479 | 0-1      | https://lichess.org/7Q3OzQPW |
+|  69 | 2021.01.05 | Bullet      |           1341 |           1553 | 0-1      | https://lichess.org/Hmv5LW93 |
+|  70 | 2021.01.05 | Rapid       |           1371 |           1372 | 1-0      | https://lichess.org/vf5v8cQr |
+|  71 | 2021.01.05 | Rapid       |           1244 |           1322 | 1-0      | https://lichess.org/3mkH7AvV |
+|  72 | 2021.01.06 | Blitz       |           2309 |           2320 | 0-1      | https://lichess.org/PESCCBaP |
+|  73 | 2021.01.06 | Rapid       |           2036 |           1981 | 1-0      | https://lichess.org/gI7a3ZaD |
+|  74 | 2021.01.06 | Blitz       |           1943 |           1969 | 0-1      | https://lichess.org/pqGArwLs |
+|  75 | 2021.01.06 | Bullet      |           1945 |           1913 | 1-0      | https://lichess.org/Bw3NezGb |
+|  76 | 2021.01.06 | Rapid       |           1781 |           1777 | 1-0      | https://lichess.org/xQt3o8X3 |
+|  77 | 2021.01.06 | Blitz       |           1436 |           1944 | 1-0      | https://lichess.org/9kqRh8At |
+|  78 | 2021.01.06 | Blitz       |           1679 |           1682 | 1-0      | https://lichess.org/Uy7VJXBx |
+|  79 | 2021.01.06 | Bullet      |           1584 |           1601 | 1-0      | https://lichess.org/6qFT9gri |
+|  80 | 2021.01.06 | Rapid       |           1618 |           1536 | 0-1      | https://lichess.org/9oc2ox4b |
+|  81 | 2021.01.06 | Rapid       |           1519 |           1283 | 0-1      | https://lichess.org/wCo4MOr8 |
+|  82 | 2021.01.06 | Bullet      |           1304 |           1227 | 0-1      | https://lichess.org/9kmHuRXq |
+|  83 | 2021.01.07 | Blitz       |           2277 |           2051 | 1-0      | https://lichess.org/mSob4IF8 |
+|  84 | 2021.01.07 | Rapid       |           2095 |           2020 | 0-1      | https://lichess.org/WS92R0dr |
+|  85 | 2021.01.07 | Blitz       |           2002 |           1969 | 1-0      | https://lichess.org/uqlzuZ5u |
+|  86 | 2021.01.07 | Rapid       |           1839 |           1866 | 0-1      | https://lichess.org/ArKP856V |
+|  87 | 2021.01.07 | Bullet      |           1727 |           1754 | 0-1      | https://lichess.org/uK0JurbE |
+|  88 | 2021.01.07 | Rapid       |           1709 |           1769 | 0-1      | https://lichess.org/yE0rv5QX |
+|  89 | 2021.01.07 | Bullet      |           1727 |           1714 | 1-0      | https://lichess.org/LegOjFAO |
+|  90 | 2021.01.07 | Blitz       |           1132 |           2209 | 0-1      | https://lichess.org/pYxPLwTU |
+|  91 | 2021.01.07 | Blitz       |           1596 |           1629 | 0-1      | https://lichess.org/YIeFRm50 |
+|  92 | 2021.01.07 | Blitz       |           1274 |           1276 | 1-0      | https://lichess.org/43MQm11J |
+|  93 | 2021.01.08 | Blitz       |           2178 |           2263 | 0-1      | https://lichess.org/IUafPGHn |
+|  94 | 2021.01.08 | Bullet      |           2229 |           2210 | 1-0      | https://lichess.org/hCcPebzR |
+|  95 | 2021.01.08 | Blitz       |           2208 |           2211 | 1-0      | https://lichess.org/UgQAGwk7 |
+|  96 | 2021.01.08 | Bullet      |           2084 |           2144 | 0-1      | https://lichess.org/NBWd8PpO |
+|  97 | 2021.01.08 | Bullet      |           2001 |           2131 | 0-1      | https://lichess.org/Hkg4w057 |
+|  98 | 2021.01.08 | Blitz       |           2022 |           2038 | 0-1      | https://lichess.org/Y5o8c0ZD |
+|  99 | 2021.01.08 | Rapid       |           2010 |           1983 | 0-1      | https://lichess.org/sjbsHeHG |
+| 100 | 2021.01.08 | Rapid       |           1940 |           1981 | 0-1      | https://lichess.org/vneCL4ju |
+| 101 | 2021.01.08 | Bullet      |           1862 |           1957 | 0-1      | https://lichess.org/8O9tt6SM |
+| 102 | 2021.01.08 | Blitz       |           1908 |           1849 | 1-0      | https://lichess.org/yCwgxyHa |
+| 103 | 2021.01.08 | Bullet      |           1606 |           1593 | 0-1      | https://lichess.org/ZaYtNPrn |
+| 104 | 2021.01.08 | Rapid       |           1600 |           1447 | 1-0      | https://lichess.org/T91jxBgf |
+| 105 | 2021.01.08 | Bullet      |           1477 |           1488 | 1-0      | https://lichess.org/YjWCGBd6 |
+| 106 | 2021.01.08 | Bullet      |           1458 |           1478 | 1-0      | https://lichess.org/PtKZgwIL |
+| 107 | 2021.01.08 | Blitz       |           1443 |           1422 | 1-0      | https://lichess.org/2IWJTVhc |
+| 108 | 2021.01.09 | Blitz       |           2395 |           2450 | 1-0      | https://lichess.org/c342SCV6 |
+| 109 | 2021.01.09 | Bullet      |           1949 |           2016 | 0-1      | https://lichess.org/Re7N47pr |
+| 110 | 2021.01.09 | Bullet      |           1938 |           1946 | 1-0      | https://lichess.org/VXsSPwMH |
+| 111 | 2021.01.09 | Blitz       |           1872 |           1910 | 1-0      | https://lichess.org/cFzeB80d |
+| 112 | 2021.01.09 | Bullet      |           1822 |           1854 | 0-1      | https://lichess.org/eqgV7T1Q |
+| 113 | 2021.01.09 | Blitz       |           1829 |           1812 | 1-0      | https://lichess.org/Dw88B7SC |
+| 114 | 2021.01.09 | Bullet      |           1779 |           1777 | 1-0      | https://lichess.org/l3N2fr9X |
+| 115 | 2021.01.09 | Blitz       |           1690 |           1726 | 1-0      | https://lichess.org/jfiwbQNH |
+| 116 | 2021.01.09 | Rapid       |           1665 |           1633 | 0-1      | https://lichess.org/RwA38LJ1 |
+| 117 | 2021.01.09 | Blitz       |           1645 |           1638 | 1-0      | https://lichess.org/EQvIUejE |
+| 118 | 2021.01.09 | Bullet      |           1621 |           1644 | 1-0      | https://lichess.org/WBUR6TIZ |
+| 119 | 2021.01.09 | Rapid       |           1500 |           1611 | 1-0      | https://lichess.org/gs3Zaktc |
+| 120 | 2021.01.09 | Rapid       |           1507 |           1542 | 1-0      | https://lichess.org/bs8qtqcp |
+| 121 | 2021.01.10 | Blitz       |           2394 |           2456 | 0-1      | https://lichess.org/1dLRC7Yb |
+| 122 | 2021.01.10 | Blitz       |           2195 |           2266 | 0-1      | https://lichess.org/VSkfFhlw |
+| 123 | 2021.01.10 | Blitz       |           2175 |           2194 | 1-0      | https://lichess.org/RQn2QR4b |
+| 124 | 2021.01.10 | Blitz       |           2134 |           2191 | 1-0      | https://lichess.org/y0rGp32w |
+| 125 | 2021.01.10 | Blitz       |           2049 |           2055 | 1-0      | https://lichess.org/Fixba2Qx |
+| 126 | 2021.01.10 | Blitz       |           1986 |           2016 | 1-0      | https://lichess.org/FyYZJlAd |
+| 127 | 2021.01.10 | Bullet      |           1978 |           1991 | 1-0      | https://lichess.org/OFFwYrJL |
+| 128 | 2021.01.10 | Blitz       |           1967 |           1963 | 0-1      | https://lichess.org/QQRt2W5n |
+| 129 | 2021.01.10 | Blitz       |           1974 |           1937 | 1-0      | https://lichess.org/8Xv439LT |
+| 130 | 2021.01.10 | Rapid       |           1840 |           1828 | 1-0      | https://lichess.org/4g7stm4W |
+| 131 | 2021.01.10 | Blitz       |           1803 |           1737 | 1-0      | https://lichess.org/d52r3J1W |
+| 132 | 2021.01.10 | Blitz       |           1766 |           1725 | 1-0      | https://lichess.org/JsMwmPOc |
+| 133 | 2021.01.10 | Blitz       |           1720 |           1730 | 0-1      | https://lichess.org/14AtC5ax |
+| 134 | 2021.01.10 | Bullet      |           1729 |           1713 | 0-1      | https://lichess.org/mIsfJSpO |
+| 135 | 2021.01.10 | Blitz       |           1604 |           1658 | 1-0      | https://lichess.org/B4ferYAc |
+| 136 | 2021.01.10 | Blitz       |           1453 |           1452 | 0-1      | https://lichess.org/St0986f1 |
+| 137 | 2021.01.11 | Bullet      |           1944 |           1996 | 1-0      | https://lichess.org/3DsGfcrI |
+| 138 | 2021.01.11 | Blitz       |           1839 |           1837 | 0-1      | https://lichess.org/wKiXLeWD |
+| 139 | 2021.01.11 | Bullet      |           1399 |           2057 | 0-1      | https://lichess.org/tgQ3Sd75 |
+| 140 | 2021.01.11 | Blitz       |           1731 |           1712 | 1-0      | https://lichess.org/WVDIVmTn |
+| 141 | 2021.01.11 | Blitz       |           1732 |           1656 | 1-0      | https://lichess.org/oiK5uhnc |
+| 142 | 2021.01.11 | Blitz       |           1924 |           1444 | 1-0      | https://lichess.org/te8d6Vtd |
+| 143 | 2021.01.11 | Blitz       |           1613 |           1680 | 1-0      | https://lichess.org/uRnLsL8p |
+| 144 | 2021.01.11 | Blitz       |           1500 |           1386 | 0-1      | https://lichess.org/ly7gyU0a |
+| 145 | 2021.01.11 | Bullet      |           1544 |           1150 | 1-0      | https://lichess.org/8GK6zqyF |
+| 146 | 2021.01.12 | Blitz       |           2222 |           2225 | 1-0      | https://lichess.org/LR8S59XK |
+| 147 | 2021.01.12 | Blitz       |           2177 |           2230 | 0-1      | https://lichess.org/44cRpCSu |
+| 148 | 2021.01.12 | Blitz       |           1971 |           2050 | 1-0      | https://lichess.org/11MidsKL |
+| 149 | 2021.01.12 | Bullet      |           1406 |           2064 | 0-1      | https://lichess.org/ggMezHlt |
+| 150 | 2021.01.12 | Rapid       |           1648 |           1633 | 1-0      | https://lichess.org/icMvztOB |
+| 151 | 2021.01.12 | Rapid       |           1635 |           1631 | 1-0      | https://lichess.org/CGZE6Oad |
+| 152 | 2021.01.12 | Blitz       |           1537 |           1566 | 0-1      | https://lichess.org/uLFedPTq |
+| 153 | 2021.01.12 | Blitz       |           1477 |           1519 | 1-0      | https://lichess.org/WkuM03nW |
+| 154 | 2021.01.12 | Blitz       |           1471 |           1413 | 1-0      | https://lichess.org/HkoBApQB |
+| 155 | 2021.01.13 | Bullet      |           2144 |           2030 | 1-0      | https://lichess.org/oVhtiEdH |
+| 156 | 2021.01.13 | Bullet      |           1953 |           1934 | 0-1      | https://lichess.org/8mKoGXnD |
+| 157 | 2021.01.13 | Blitz       |           1817 |           1927 | 0-1      | https://lichess.org/KXCI3YiH |
+| 158 | 2021.01.13 | Blitz       |           1708 |           1737 | 0-1      | https://lichess.org/88FoHuBf |
+| 159 | 2021.01.13 | Bullet      |           1637 |           1634 | 0-1      | https://lichess.org/bRL5a4Q0 |
+| 160 | 2021.01.13 | Blitz       |           1635 |           1633 | 0-1      | https://lichess.org/Z7FBmLxt |
+| 161 | 2021.01.13 | Bullet      |           1649 |           1581 | 1-0      | https://lichess.org/ZYfaNaZv |
+| 162 | 2021.01.13 | Bullet      |           1554 |           1066 | 1-0      | https://lichess.org/AeUjG8XG |
+| 163 | 2021.01.13 | Blitz       |           1197 |           1151 | 0-1      | https://lichess.org/lN3ZVv8E |
+| 164 | 2021.01.13 | Blitz       |           1030 |            967 | 0-1      | https://lichess.org/d4RHi3Fq |
+| 165 | 2021.01.14 | Bullet      |           2289 |           2249 | 1-0      | https://lichess.org/GFPrMuUa |
+| 166 | 2021.01.14 | Blitz       |           2193 |           2217 | 1-0      | https://lichess.org/8CxHzvFG |
+| 167 | 2021.01.14 | Bullet      |           2159 |           2134 | 1-0      | https://lichess.org/06S8LAFx |
+| 168 | 2021.01.14 | Blitz       |           1984 |           2029 | 1-0      | https://lichess.org/rhbtO6tX |
+| 169 | 2021.01.14 | Blitz       |           1993 |           2006 | 1-0      | https://lichess.org/FKKrWUWm |
+| 170 | 2021.01.14 | Bullet      |           1866 |           1949 | 0-1      | https://lichess.org/KhbJrzD3 |
+| 171 | 2021.01.14 | Blitz       |           2103 |           1657 | 1-0      | https://lichess.org/Z6kyQQhB |
+| 172 | 2021.01.14 | Blitz       |           1462 |           2174 | 0-1      | https://lichess.org/NzFISaKd |
+| 173 | 2021.01.14 | Blitz       |           1710 |           1742 | 1-0      | https://lichess.org/kO2QQ0nt |
+| 174 | 2021.01.14 | Bullet      |           1690 |           1685 | 1-0      | https://lichess.org/LUJdCwoe |
+| 175 | 2021.01.14 | Blitz       |           1638 |           1633 | 1-0      | https://lichess.org/KHFF4ntX |
+| 176 | 2021.01.14 | Rapid       |           1609 |           1636 | 0-1      | https://lichess.org/vaYUr9CX |
+| 177 | 2021.01.14 | Rapid       |           1548 |           1535 | 1-0      | https://lichess.org/ENn3b2b3 |
+| 178 | 2021.01.14 | Blitz       |           1523 |           1453 | 0-1      | https://lichess.org/uzoYwCXO |
+| 179 | 2021.01.14 | Blitz       |           1226 |           1147 | 1-0      | https://lichess.org/aCi0pUny |
+| 180 | 2021.01.15 | Bullet      |           2058 |           2114 | 1-0      | https://lichess.org/g7hoHpKi |
+| 181 | 2021.01.15 | Blitz       |           2049 |           2093 | 1-0      | https://lichess.org/uLaXpLBa |
+| 182 | 2021.01.15 | Bullet      |           2061 |           2050 | 0-1      | https://lichess.org/VlwuNIJ3 |
+| 183 | 2021.01.15 | Blitz       |           2112 |           1915 | 1-0      | https://lichess.org/vG2C6Q26 |
+| 184 | 2021.01.15 | Rapid       |           2061 |           1940 | 1-0      | https://lichess.org/7bWmj8op |
+| 185 | 2021.01.15 | Blitz       |           2019 |           1925 | 1-0      | https://lichess.org/em4yNpaQ |
+| 186 | 2021.01.15 | Blitz       |           1732 |           1927 | 0-1      | https://lichess.org/sAgQ1NJd |
+| 187 | 2021.01.15 | Blitz       |           1799 |           1780 | 0-1      | https://lichess.org/6LIif1xj |
+| 188 | 2021.01.15 | Blitz       |           1988 |           1408 | 0-1      | https://lichess.org/woCggplU |
+| 189 | 2021.01.15 | Rapid       |           1701 |           1616 | 0-1      | https://lichess.org/6GtegihL |
+| 190 | 2021.01.15 | Rapid       |           1639 |           1591 | 1-0      | https://lichess.org/N429mYJE |
+| 191 | 2021.01.15 | Rapid       |           1500 |           1558 | 1-0      | https://lichess.org/2HM5a7la |
+| 192 | 2021.01.16 | Bullet      |           2206 |           2262 | 1-0      | https://lichess.org/vFY1mWE7 |
+| 193 | 2021.01.16 | Blitz       |           2202 |           2040 | 1-0      | https://lichess.org/l48CDfwg |
+| 194 | 2021.01.16 | Bullet      |           1867 |           2363 | 0-1      | https://lichess.org/rYtXbVYj |
+| 195 | 2021.01.16 | Blitz       |           2073 |           1949 | 0-1      | https://lichess.org/NTmwyHph |
+| 196 | 2021.01.16 | Bullet      |           2016 |           1955 | 1-0      | https://lichess.org/lGPc3JRB |
+| 197 | 2021.01.16 | Blitz       |           1935 |           1916 | 1-0      | https://lichess.org/52YIQPGT |
+| 198 | 2021.01.16 | Blitz       |           2018 |           1795 | 1-0      | https://lichess.org/jQ1zvjEO |
+| 199 | 2021.01.16 | Blitz       |           1905 |           1891 | 0-1      | https://lichess.org/7q9ObrsQ |
+| 200 | 2021.01.16 | Blitz       |           1877 |           1899 | 0-1      | https://lichess.org/xkM0lRq2 |
+| 201 | 2021.01.16 | Bullet      |           1903 |           1859 | 1-0      | https://lichess.org/OAeAYg52 |
+| 202 | 2021.01.16 | Bullet      |           1889 |           1856 | 1-0      | https://lichess.org/9FdDAmno |
+| 203 | 2021.01.16 | Bullet      |           1665 |           1563 | 0-1      | https://lichess.org/Z2a0w8bn |
+| 204 | 2021.01.16 | Bullet      |           1567 |           1654 | 0-1      | https://lichess.org/4kEk1ONp |
+| 205 | 2021.01.16 | Blitz       |           1466 |           1471 | 1-0      | https://lichess.org/ydthoiS3 |
+| 206 | 2021.01.16 | Blitz       |           1358 |           1392 | 0-1      | https://lichess.org/ZZ3W6Tmz |
+| 207 | 2021.01.17 | Blitz       |           2245 |           2225 | 1-0      | https://lichess.org/gZn1nZSg |
+| 208 | 2021.01.17 | Bullet      |           2090 |           2138 | 1-0      | https://lichess.org/PmUfL3Zv |
+| 209 | 2021.01.17 | Blitz       |           2110 |           2104 | 1-0      | https://lichess.org/JyGOJYW9 |
+| 210 | 2021.01.17 | Blitz       |           1912 |           2185 | 0-1      | https://lichess.org/HBPq8cVW |
+| 211 | 2021.01.17 | Blitz       |           2047 |           1988 | 1-0      | https://lichess.org/vVPejxbf |
+| 212 | 2021.01.17 | Bullet      |           1936 |           1826 | 1-0      | https://lichess.org/cyMOJQkq |
+| 213 | 2021.01.17 | Blitz       |           1782 |           1813 | 1-0      | https://lichess.org/wuw3y4Fe |
+| 214 | 2021.01.17 | Blitz       |           1707 |           1877 | 0-1      | https://lichess.org/9t1QT0zu |
+| 215 | 2021.01.17 | Blitz       |           1785 |           1797 | 1-0      | https://lichess.org/Ybe9lOx7 |
+| 216 | 2021.01.17 | Bullet      |           1746 |           1694 | 1-0      | https://lichess.org/SZSbYGIB |
+| 217 | 2021.01.18 | Blitz       |           2241 |           2320 | 0-1      | https://lichess.org/Y4TH55Xr |
+| 218 | 2021.01.18 | Blitz       |           2268 |           2281 | 0-1      | https://lichess.org/RAXJW1xv |
+| 219 | 2021.01.18 | Blitz       |           2026 |           2073 | 1-0      | https://lichess.org/bsNFiX5M |
+| 220 | 2021.01.18 | Blitz       |           1961 |           1926 | 1-0      | https://lichess.org/oMdtV8au |
+| 221 | 2021.01.18 | Bullet      |           1875 |           1840 | 1-0      | https://lichess.org/QyyEMbUP |
+| 222 | 2021.01.18 | Bullet      |           1840 |           1845 | 1-0      | https://lichess.org/dAw6nLpg |
+| 223 | 2021.01.18 | Bullet      |           1812 |           1819 | 1-0      | https://lichess.org/TfJleaJH |
+| 224 | 2021.01.18 | Bullet      |           1895 |           1614 | 1-0      | https://lichess.org/Cf6SzMhM |
+| 225 | 2021.01.18 | Blitz       |           1763 |           1743 | 1-0      | https://lichess.org/twidhbfZ |
+| 226 | 2021.01.18 | Blitz       |           1622 |           1623 | 0-1      | https://lichess.org/BviV3SbX |
+| 227 | 2021.01.18 | Bullet      |           1492 |           1492 | 1-0      | https://lichess.org/QCh2ywrP |
+| 228 | 2021.01.18 | Blitz       |           1530 |           1145 | 1-0      | https://lichess.org/BB27wDaB |
+| 229 | 2021.01.19 | Blitz       |           2136 |           2104 | 0-1      | https://lichess.org/5WhgmvO0 |
+| 230 | 2021.01.19 | Bullet      |           2099 |           2064 | 0-1      | https://lichess.org/NkIbzHzq |
+| 231 | 2021.01.19 | Bullet      |           2034 |           2112 | 0-1      | https://lichess.org/mhbCJD9O |
+| 232 | 2021.01.19 | Blitz       |           2066 |           2038 | 1-0      | https://lichess.org/ICNsPbq7 |
+| 233 | 2021.01.19 | Rapid       |           2075 |           2017 | 1-0      | https://lichess.org/9WMIXMou |
+| 234 | 2021.01.19 | Blitz       |           1939 |           2030 | 0-1      | https://lichess.org/09pI02bj |
+| 235 | 2021.01.19 | Bullet      |           1962 |           1921 | 0-1      | https://lichess.org/08jEO8dg |
+| 236 | 2021.01.19 | Blitz       |           1880 |           1893 | 1-0      | https://lichess.org/UHJ3DbJ0 |
+| 237 | 2021.01.19 | Blitz       |           1860 |           1804 | 1-0      | https://lichess.org/hZ4kJtMj |
+| 238 | 2021.01.19 | Blitz       |           1787 |           1778 | 0-1      | https://lichess.org/kYt8t9wT |
+| 239 | 2021.01.19 | Rapid       |           1763 |           1687 | 1-0      | https://lichess.org/1HKfTmqg |
+| 240 | 2021.01.19 | Blitz       |           1740 |           1692 | 1-0      | https://lichess.org/SJs1KOUh |
+| 241 | 2021.01.19 |             |           1767 |           1586 | 1-0      | https://lichess.org/RDYpF1az |
+| 242 | 2021.01.19 | Rapid       |           1689 |           1659 | 1-0      | https://lichess.org/q8IVnoBx |
+| 243 | 2021.01.19 | Blitz       |           1590 |           1702 | 1-0      | https://lichess.org/hm62bGj5 |
+| 244 | 2021.01.19 | Rapid       |           1633 |           1625 | 1-0      | https://lichess.org/YDrxWxh3 |
+| 245 | 2021.01.19 | Bullet      |           1533 |           1598 | 0-1      | https://lichess.org/HFFv1GJk |
+| 246 | 2021.01.19 | Bullet      |           1158 |           1142 | 1-0      | https://lichess.org/BLd05CkX |
+| 247 | 2021.01.20 | Bullet      |           2208 |           2374 | 1-0      | https://lichess.org/2ObnKnhG |
+| 248 | 2021.01.20 | Bullet      |           2109 |           2143 | 0-1      | https://lichess.org/8BkadYqP |
+| 249 | 2021.01.20 | Blitz       |           1966 |           1966 | 1-0      | https://lichess.org/feMmHXVi |
+| 250 | 2021.01.20 | Blitz       |           1847 |           1863 | 1-0      | https://lichess.org/aut8vnM0 |
+| 251 | 2021.01.20 | Blitz       |           1966 |           1569 | 1-0      | https://lichess.org/AXs6dbOB |
+| 252 | 2021.01.20 | Blitz       |           2204 |           1322 | 1-0      | https://lichess.org/QxDNpFgl |
+| 253 | 2021.01.20 | Rapid       |           1729 |           1743 | 0-1      | https://lichess.org/lJk6CpGo |
+| 254 | 2021.01.20 | Blitz       |           1692 |           1711 | 1-0      | https://lichess.org/bWoSJRRf |
+| 255 | 2021.01.20 | Blitz       |           1683 |           1519 | 1-0      | https://lichess.org/gr7MfXt9 |
+| 256 | 2021.01.20 | Bullet      |           2142 |            845 | 1-0      | https://lichess.org/ipPaO5Ov |
+| 257 | 2021.01.20 | Rapid       |           1336 |           1639 | 1-0      | https://lichess.org/GD4DCegp |
+| 258 | 2021.01.20 | Rapid       |           1474 |           1485 | 1-0      | https://lichess.org/Z9XtjMP0 |
+| 259 | 2021.01.20 | Rapid       |           1375 |           1387 | 0-1      | https://lichess.org/FOhYUjvi |
+| 260 | 2021.01.21 | Blitz       |           2179 |           2228 | 1-0      | https://lichess.org/zP6iAlBy |
+| 261 | 2021.01.21 | Bullet      |           2006 |           1986 | 1-0      | https://lichess.org/pjtHlSgq |
+| 262 | 2021.01.21 | Rapid       |           2001 |           1966 | 1-0      | https://lichess.org/lPQaweC7 |
+| 263 | 2021.01.21 | Blitz       |           1946 |           2021 | 0-1      | https://lichess.org/UubX42CK |
+| 264 | 2021.01.21 | Bullet      |           1861 |           1899 | 0-1      | https://lichess.org/f8L84hR7 |
+| 265 | 2021.01.21 | Blitz       |           1873 |           1885 | 1-0      | https://lichess.org/fe7RuGS2 |
+| 266 | 2021.01.21 | Blitz       |           1856 |           1891 | 0-1      | https://lichess.org/EPCfUqMh |
+| 267 | 2021.01.21 | Bullet      |           2041 |           1595 | 1-0      | https://lichess.org/OMZaXglO |
+| 268 | 2021.01.21 | Blitz       |           1826 |           1783 | 1-0      | https://lichess.org/ME6GVKTR |
+| 269 | 2021.01.21 | Blitz       |           1823 |           1778 | 1-0      | https://lichess.org/PkvB88mw |
+| 270 | 2021.01.21 | Rapid       |           1642 |           1654 | 0-1      | https://lichess.org/6ZV5qk82 |
+| 271 | 2021.01.21 | Blitz       |           1641 |           1640 | 0-1      | https://lichess.org/idCJqSkF |
+| 272 | 2021.01.21 | Blitz       |           1484 |           1514 | 1-0      | https://lichess.org/Jh0PLWyX |
+| 273 | 2021.01.21 | Blitz       |           1440 |           1353 | 1-0      | https://lichess.org/tnkJfZDH |
+| 274 | 2021.01.21 | Blitz       |           1297 |           1231 | 1-0      | https://lichess.org/Lddx2LY5 |
+| 275 | 2021.01.21 | Bullet      |           1077 |           1013 | 1-0      | https://lichess.org/KFvX4KdK |
+| 276 | 2021.01.22 | Rapid       |           2114 |           2159 | 1-0      | https://lichess.org/8eSmkumw |
+| 277 | 2021.01.22 | Bullet      |           2040 |           2054 | 1-0      | https://lichess.org/7rYUAmQm |
+| 278 | 2021.01.22 | Blitz       |           2072 |           1867 | 1-0      | https://lichess.org/AJDYn0Nw |
+| 279 | 2021.01.22 | Blitz       |           2083 |           1797 | 1-0      | https://lichess.org/A9Rdlpyl |
+| 280 | 2021.01.22 | Blitz       |           1897 |           1933 | 0-1      | https://lichess.org/OzH5v6vj |
+| 281 | 2021.01.22 | Bullet      |           1855 |           1897 | 1-0      | https://lichess.org/sQ8A83VK |
+| 282 | 2021.01.22 | Rapid       |           1849 |           1843 | 1-0      | https://lichess.org/Mg7mcpai |
+| 283 | 2021.01.22 | Blitz       |           1880 |           1767 | 1-0      | https://lichess.org/zvKJbFFp |
+| 284 | 2021.01.22 | Blitz       |           1807 |           1792 | 1-0      | https://lichess.org/3B7Z7Ziq |
+| 285 | 2021.01.22 | Rapid       |           1789 |           1796 | 1-0      | https://lichess.org/JHpnVFk8 |
+| 286 | 2021.01.22 | Blitz       |           1775 |           1797 | 0-1      | https://lichess.org/VJ7M9kLH |
+| 287 | 2021.01.22 | Blitz       |           1735 |           1713 | 0-1      | https://lichess.org/VfMt2hZJ |
+| 288 | 2021.01.22 | Rapid       |           1721 |           1686 | 1-0      | https://lichess.org/dv3GIwnl |
+| 289 | 2021.01.22 | Rapid       |           1642 |           1699 | 0-1      | https://lichess.org/Klsjll3A |
+| 290 | 2021.01.22 | Blitz       |           1634 |           1629 | 0-1      | https://lichess.org/gEepspv6 |
+| 291 | 2021.01.22 | Blitz       |           1583 |           1474 | 1-0      | https://lichess.org/ucRFdAse |
+| 292 | 2021.01.22 | Blitz       |           1464 |           1463 | 0-1      | https://lichess.org/r0t9k08S |
+| 293 | 2021.01.22 | Bullet      |           1024 |           1764 | 0-1      | https://lichess.org/VbvIFHt5 |
+| 294 | 2021.01.23 | Blitz       |           2106 |           2117 | 1-0      | https://lichess.org/WCWTlaeF |
+| 295 | 2021.01.23 | Blitz       |           2037 |           2041 | 1-0      | https://lichess.org/b1LytlFp |
+| 296 | 2021.01.23 | Bullet      |           1956 |           1949 | 1-0      | https://lichess.org/4KPTGrQY |
+| 297 | 2021.01.23 | Bullet      |           1937 |           1929 | 1-0      | https://lichess.org/HGQQpSjx |
+| 298 | 2021.01.23 | Rapid       |           2049 |           1801 | 1-0      | https://lichess.org/vJp1moyP |
+| 299 | 2021.01.23 | Blitz       |           1846 |           1899 | 1-0      | https://lichess.org/MSKk22ru |
+| 300 | 2021.01.23 | Blitz       |           1801 |           1801 | 0-1      | https://lichess.org/qamaxK2R |
+| 301 | 2021.01.23 | Bullet      |           1749 |           1765 | 0-1      | https://lichess.org/Nu3Xi5Ak |
+| 302 | 2021.01.23 | Blitz       |           1539 |           1517 | 1-0      | https://lichess.org/FIL1oDzY |
+| 303 | 2021.01.23 | Bullet      |           1374 |           1259 | 0-1      | https://lichess.org/5fkYXE4o |
+| 304 | 2021.01.23 | Rapid       |           1167 |           1204 | 1-0      | https://lichess.org/TB85TP1Y |
+| 305 | 2021.01.24 | Blitz       |           2504 |           2491 | 0-1      | https://lichess.org/MkPl9Ene |
+| 306 | 2021.01.24 | Bullet      |           2360 |           2403 | 1-0      | https://lichess.org/6N3GeW40 |
+| 307 | 2021.01.24 | Bullet      |           2189 |           2573 | 0-1      | https://lichess.org/4oLZx4PL |
+| 308 | 2021.01.24 | Bullet      |           2096 |           1951 | 0-1      | https://lichess.org/NkXRe5cb |
+| 309 | 2021.01.24 | Bullet      |           1767 |           1763 | 1-0      | https://lichess.org/PBPyUo67 |
+| 310 | 2021.01.24 | Rapid       |           1731 |           1722 | 1-0      | https://lichess.org/kLqW1idM |
+| 311 | 2021.01.24 | Bullet      |           1523 |           1518 | 0-1      | https://lichess.org/rmSqVkWQ |
+| 312 | 2021.01.24 | Bullet      |           1391 |           1315 | 1-0      | https://lichess.org/7DJvYZMS |
+| 313 | 2021.01.24 | Blitz       |           1024 |           1072 | 0-1      | https://lichess.org/MMcG9RfQ |
+| 314 | 2021.01.25 | Blitz       |           2440 |           2634 | 0-1      | https://lichess.org/htF9TPQM |
+| 315 | 2021.01.25 | Blitz       |           2142 |           2078 | 1-0      | https://lichess.org/QX2VANa5 |
+| 316 | 2021.01.25 | Blitz       |           1793 |           1760 | 1-0      | https://lichess.org/pzyiP7op |
+| 317 | 2021.01.25 | Blitz       |           1679 |           1662 | 1-0      | https://lichess.org/qVZYhA5v |
+| 318 | 2021.01.25 | Blitz       |           1545 |           1554 | 1-0      | https://lichess.org/0B05CFfc |
+| 319 | 2021.01.25 | Blitz       |           1119 |           1124 | 0-1      | https://lichess.org/a3iGtdoJ |
+| 320 | 2021.01.26 | Bullet      |           2000 |           2488 | 0-1      | https://lichess.org/Jqs4bmtW |
+| 321 | 2021.01.26 | Blitz       |           2042 |           2081 | 1-0      | https://lichess.org/fHYh5QFy |
+| 322 | 2021.01.26 | Bullet      |           1916 |           1955 | 1-0      | https://lichess.org/rV91KISr |
+| 323 | 2021.01.26 | Bullet      |           1769 |           1918 | 0-1      | https://lichess.org/scc0Q3aG |
+| 324 | 2021.01.26 | Bullet      |           1525 |           1949 | 0-1      | https://lichess.org/lwfYcKQR |
+| 325 | 2021.01.26 | Blitz       |           1661 |           1605 | 1-0      | https://lichess.org/kWYufU8n |
+| 326 | 2021.01.26 | Blitz       |           1628 |           1621 | 0-1      | https://lichess.org/MgMejpIs |
+| 327 | 2021.01.26 | Blitz       |           1650 |           1542 | 1-0      | https://lichess.org/hZP5CG9c |
+| 328 | 2021.01.26 | Bullet      |           1848 |            844 | 1-0      | https://lichess.org/sVJmUU7v |
+| 329 | 2021.01.26 | Rapid       |           1017 |           1078 | 0-1      | https://lichess.org/61JaFU5Q |
+| 330 | 2021.01.27 | Bullet      |           2212 |           2192 | 1-0      | https://lichess.org/JIi84Dch |
+| 331 | 2021.01.27 | Blitz       |           1811 |           2477 | 0-1      | https://lichess.org/LY5WQjXL |
+| 332 | 2021.01.27 | Bullet      |           2105 |           2111 | 1-0      | https://lichess.org/2SFTYXSJ |
+| 333 | 2021.01.27 | Blitz       |           1994 |           2001 | 0-1      | https://lichess.org/mf4MYQxm |
+| 334 | 2021.01.27 | Bullet      |           1944 |           1945 | 1-0      | https://lichess.org/S18LATTo |
+| 335 | 2021.01.27 | Blitz       |           1931 |           1919 | 0-1      | https://lichess.org/Vmhhnpp6 |
+| 336 | 2021.01.27 | Blitz       |           1894 |           1741 | 1-0      | https://lichess.org/ciFTUCUp |
+| 337 | 2021.01.27 | Bullet      |           1765 |           1750 | 1-0      | https://lichess.org/VmXvmaXi |
+| 338 | 2021.01.27 | Blitz       |           1759 |           1751 | 1-0      | https://lichess.org/BMo7MWbU |
+| 339 | 2021.01.27 | Blitz       |           1957 |           1089 | 1-0      | https://lichess.org/3IyCRzex |
+| 340 | 2021.01.27 | Bullet      |           1390 |           1507 | 1-0      | https://lichess.org/xmbBYfr5 |
+| 341 | 2021.01.27 | Blitz       |           1164 |           1223 | 0-1      | https://lichess.org/BdVb9s2D |
+| 342 | 2021.01.28 | Bullet      |           2293 |           2226 | 1-0      | https://lichess.org/2awUZzov |
+| 343 | 2021.01.28 | Blitz       |           2061 |           2401 | 0-1      | https://lichess.org/oqgp7jiQ |
+| 344 | 2021.01.28 | Bullet      |           2027 |           2333 | 1-0      | https://lichess.org/bnneBOj4 |
+| 345 | 2021.01.28 | Bullet      |           2286 |           1770 | 1-0      | https://lichess.org/useNsImh |
+| 346 | 2021.01.28 | Blitz       |           2122 |           1906 | 1-0      | https://lichess.org/bs1KN6Eh |
+| 347 | 2021.01.28 | Bullet      |           1911 |           1913 | 1-0      | https://lichess.org/qjVYV4WH |
+| 348 | 2021.01.28 | Blitz       |           1861 |           1868 | 0-1      | https://lichess.org/qpL1WTLG |
+| 349 | 2021.01.28 | Blitz       |           1766 |           1873 | 1-0      | https://lichess.org/IrQNikLe |
+| 350 | 2021.01.28 | Blitz       |           1749 |           1841 | 0-1      | https://lichess.org/Z2J2uYXE |
+| 351 | 2021.01.28 | Bullet      |           1659 |           1795 | 0-1      | https://lichess.org/qAgrIs5p |
+| 352 | 2021.01.28 | Rapid       |           1617 |           1604 | 0-1      | https://lichess.org/y9N7RWP6 |
+| 353 | 2021.01.28 | Bullet      |           1528 |           1495 | 1-0      | https://lichess.org/qWTlnAaM |
+| 354 | 2021.01.28 | Blitz       |           1449 |           1441 | 1-0      | https://lichess.org/UuCFEXaS |
+| 355 | 2021.01.28 | Bullet      |           1297 |           1337 | 0-1      | https://lichess.org/8XgcHDet |
+| 356 | 2021.01.29 | Bullet      |           2355 |           2238 | 1-0      | https://lichess.org/AiZ1HFzH |
+| 357 | 2021.01.29 | Blitz       |           1980 |           1963 | 1-0      | https://lichess.org/ut7jVgrn |
+| 358 | 2021.01.29 | Bullet      |           1911 |           1959 | 0-1      | https://lichess.org/q8cla5i9 |
+| 359 | 2021.01.29 | Blitz       |           1871 |           1900 | 1-0      | https://lichess.org/TmVgnLFW |
+| 360 | 2021.01.29 | Blitz       |           1820 |           1824 | 0-1      | https://lichess.org/g2jnbUDd |
+| 361 | 2021.01.29 | Rapid       |           1769 |           1739 | 0-1      | https://lichess.org/QJEjVDb8 |
+| 362 | 2021.01.29 | Bullet      |           1730 |           1737 | 1-0      | https://lichess.org/CyJmgnD9 |
+| 363 | 2021.01.29 | Blitz       |           1844 |           1327 | 1-0      | https://lichess.org/J4ZkXE9d |
+| 364 | 2021.01.29 | Blitz       |           1511 |           1452 | 1-0      | https://lichess.org/ICL9kD1D |
+| 365 | 2021.01.29 | Bullet      |           1483 |           1421 | 1-0      | https://lichess.org/7gZ4TNFo |
+| 366 | 2021.01.29 | Bullet      |           1193 |           1614 | 0-1      | https://lichess.org/MVZssJW5 |
+| 367 | 2021.01.29 | Blitz       |           1125 |           1628 | 0-1      | https://lichess.org/t26HRjGF |
+| 368 | 2021.01.29 | Blitz       |           1375 |           1264 | 1-0      | https://lichess.org/CONH6yOW |
+| 369 | 2021.01.30 | Blitz       |           2119 |           2092 | 0-1      | https://lichess.org/j6Zy7lv3 |
+| 370 | 2021.01.30 | Bullet      |           2049 |           1918 | 1-0      | https://lichess.org/8oXAZGyc |
+| 371 | 2021.01.30 | Blitz       |           1965 |           1915 | 1-0      | https://lichess.org/cuSdRy1N |
+| 372 | 2021.01.30 | Blitz       |           1881 |           1902 | 0-1      | https://lichess.org/DfUkKViq |
+| 373 | 2021.01.30 | Rapid       |           1812 |           1795 | 0-1      | https://lichess.org/uI9lJ9JB |
+| 374 | 2021.01.30 | Rapid       |           1769 |           1710 | 0-1      | https://lichess.org/BVElOWnU |
+| 375 | 2021.01.30 | Blitz       |           1735 |           1302 | 1-0      | https://lichess.org/SCrKKJue |
+| 376 | 2021.01.30 | Bullet      |           1355 |           1409 | 0-1      | https://lichess.org/C9WmGQ8N |
+| 377 | 2021.01.30 | Blitz       |           1181 |           1120 | 1-0      | https://lichess.org/sNLI5oC6 |
+| 378 | 2021.01.30 | Blitz       |            794 |            857 | 0-1      | https://lichess.org/GIlN3eH9 |
+| 379 | 2021.01.31 | Bullet      |           2460 |           2434 | 1-0      | https://lichess.org/h50HIs7S |
+| 380 | 2021.01.31 | Blitz       |           2265 |           2251 | 0-1      | https://lichess.org/iG9EwfLc |
+| 381 | 2021.01.31 | Blitz       |           1947 |           2085 | 1-0      | https://lichess.org/aU2rDGaw |
+| 382 | 2021.01.31 | Bullet      |           2060 |           1891 | 0-1      | https://lichess.org/opfSHHeL |
+| 383 | 2021.01.31 | Blitz       |           1817 |           1863 | 0-1      | https://lichess.org/lzfjRmbh |
+| 384 | 2021.01.31 | Blitz       |           1773 |           1897 | 1-0      | https://lichess.org/7reOv6rv |
+| 385 | 2021.01.31 | Blitz       |           1838 |           1798 | 1-0      | https://lichess.org/W4W3143K |
+| 386 | 2021.01.31 | Bullet      |           1814 |           1802 | 1-0      | https://lichess.org/5wBmJyrf |
+| 387 | 2021.01.31 | Blitz       |           1728 |           1719 | 1-0      | https://lichess.org/aWhBFjls |
+| 388 | 2021.01.31 | Blitz       |           1642 |           1659 | 1-0      | https://lichess.org/ZlBf04tI |
+| 389 | 2021.01.31 | Blitz       |           1565 |           1635 | 1-0      | https://lichess.org/wBu0qOUz |
+| 390 | 2021.01.31 | Blitz       |           1607 |           1574 | 1-0      | https://lichess.org/uh11ziLq |
+| 391 | 2021.01.31 | Rapid       |           1538 |           1614 | 0-1      | https://lichess.org/BeGuvmDL |
+| 392 | 2021.01.31 | Bullet      |           1075 |           2027 | 0-1      | https://lichess.org/gvhQDNAd |
+| 393 | 2021.01.31 | Rapid       |           1513 |           1492 | 1-0      | https://lichess.org/2N3YwTjK |
+| 394 | 2021.01.31 | Blitz       |           1500 |           1500 | 1-0      | https://lichess.org/I3WzVUYY |
+| 395 | 2021.01.31 | Blitz       |           1369 |           1343 | 1-0      | https://lichess.org/Laljws3p |
+| 396 | 2021.01.31 | Blitz       |           1276 |           1312 | 1-0      | https://lichess.org/5wUlQAAP |
+| 397 | 2021.01.31 | Blitz       |           1051 |           1024 | 1-0      | https://lichess.org/L7mMn17u |

@@ -1,331 +1,331 @@
-|     | Date       | Game Type   |   White Rating |   Black Rating | Result   | Site                         |   AverageRating |
-|----:|:-----------|:------------|---------------:|---------------:|:---------|:-----------------------------|----------------:|
-|   0 | 2020.09.01 | Blitz       |           1885 |           1673 | 1-0      | https://lichess.org/syU0Tu0m |            3558 |
-|   1 | 2020.09.01 | Blitz       |           1661 |           1717 | 0-1      | https://lichess.org/kntd0OYy |            3378 |
-|   2 | 2020.09.01 | Blitz       |           1587 |           1584 | 1-0      | https://lichess.org/59iwlKbe |            3171 |
-|   3 | 2020.09.01 | Blitz       |           1523 |           1640 | 0-1      | https://lichess.org/ima5NMGE |            3163 |
-|   4 | 2020.09.01 | Rapid       |           1427 |           1445 | 0-1      | https://lichess.org/grcT1FWd |            2872 |
-|   5 | 2020.09.02 | Bullet      |           2061 |           2049 | 1-0      | https://lichess.org/h7qktjH8 |            4110 |
-|   6 | 2020.09.02 | Bullet      |           2204 |           1899 | 1-0      | https://lichess.org/gpOGv2Gj |            4103 |
-|   7 | 2020.09.02 | Blitz       |           1866 |           1920 | 0-1      | https://lichess.org/SIReWHcS |            3786 |
-|   8 | 2020.09.02 | Blitz       |           1680 |           1661 | 1-0      | https://lichess.org/QPPhrZfs |            3341 |
-|   9 | 2020.09.02 |             |           1500 |           1500 | 0-1      | https://lichess.org/eZrdMIuu |            3000 |
-|  10 | 2020.09.02 | Blitz       |           1392 |           1331 | 1-0      | https://lichess.org/ngQ0Nbe4 |            2723 |
-|  11 | 2020.09.03 | Blitz       |           2053 |           2497 | 0-1      | https://lichess.org/flnalKAm |            4550 |
-|  12 | 2020.09.03 | Bullet      |           2171 |           2168 | 1-0      | https://lichess.org/nzSbjSom |            4339 |
-|  13 | 2020.09.03 | Blitz       |           2149 |           1963 | 1-0      | https://lichess.org/tQivvDL3 |            4112 |
-|  14 | 2020.09.03 | Bullet      |           1899 |           2024 | 0-1      | https://lichess.org/0e9YJeXE |            3923 |
-|  15 | 2020.09.03 | Blitz       |           1941 |           1942 | 1-0      | https://lichess.org/IsESevhH |            3883 |
-|  16 | 2020.09.03 | Bullet      |           1741 |           1749 | 1-0      | https://lichess.org/ptz77A2r |            3490 |
-|  17 | 2020.09.03 | Blitz       |           1670 |           1678 | 1-0      | https://lichess.org/2gS9Vl0R |            3348 |
-|  18 | 2020.09.03 | Rapid       |           1574 |           1589 | 1-0      | https://lichess.org/3sAtlCyn |            3163 |
-|  19 | 2020.09.03 | Blitz       |           1500 |           1503 | 0-1      | https://lichess.org/ynHAkJl2 |            3003 |
-|  20 | 2020.09.03 | Blitz       |           1310 |           1292 | 0-1      | https://lichess.org/2s2zxSgE |            2602 |
-|  21 | 2020.09.04 | Bullet      |           2284 |           2326 | 0-1      | https://lichess.org/CJ5CEzsl |            4610 |
-|  22 | 2020.09.04 | Blitz       |           2227 |           2094 | 0-1      | https://lichess.org/TL9cZZm0 |            4321 |
-|  23 | 2020.09.04 | Bullet      |           1999 |           2018 | 0-1      | https://lichess.org/aBaF53Va |            4017 |
-|  24 | 2020.09.04 | Bullet      |           2011 |           1949 | 1-0      | https://lichess.org/wz9ZF0qH |            3960 |
-|  25 | 2020.09.04 | Bullet      |           1918 |           1920 | 1-0      | https://lichess.org/XF6hR4xa |            3838 |
-|  26 | 2020.09.04 | Blitz       |           1619 |           2148 | 0-1      | https://lichess.org/kOClvvhg |            3767 |
-|  27 | 2020.09.04 | Blitz       |           1807 |           1901 | 0-1      | https://lichess.org/jDd2pnyq |            3708 |
-|  28 | 2020.09.04 | Blitz       |           1558 |           1921 | 0-1      | https://lichess.org/FJA85FVI |            3479 |
-|  29 | 2020.09.04 | Rapid       |           1667 |           1743 | 0-1      | https://lichess.org/UpeujzoQ |            3410 |
-|  30 | 2020.09.04 | Rapid       |           1634 |           1654 | 1-0      | https://lichess.org/Rza5gYRv |            3288 |
-|  31 | 2020.09.04 | Rapid       |           1493 |           1497 | 1-0      | https://lichess.org/GowhBNoY |            2990 |
-|  32 | 2020.09.04 | Rapid       |           1436 |           1473 | 0-1      | https://lichess.org/Zd1RZKaF |            2909 |
-|  33 | 2020.09.05 | Blitz       |           2021 |           2020 | 1-0      | https://lichess.org/O54FnzvF |            4041 |
-|  34 | 2020.09.05 | Bullet      |           2006 |           1863 | 0-1      | https://lichess.org/N6p6RriT |            3869 |
-|  35 | 2020.09.05 | Blitz       |           1877 |           1895 | 1-0      | https://lichess.org/ZL2G8EW5 |            3772 |
-|  36 | 2020.09.05 | Blitz       |           1694 |           1712 | 1-0      | https://lichess.org/4uiEnOiV |            3406 |
-|  37 | 2020.09.05 | Bullet      |           1717 |           1685 | 1-0      | https://lichess.org/3uyM4IVn |            3402 |
-|  38 | 2020.09.05 | Blitz       |           1702 |           1657 | 0-1      | https://lichess.org/H60qtz6J |            3359 |
-|  39 | 2020.09.05 | Bullet      |           1598 |           1668 | 1-0      | https://lichess.org/N4EJml8v |            3266 |
-|  40 | 2020.09.05 | Bullet      |           1501 |           1567 | 0-1      | https://lichess.org/I7HLjRjG |            3068 |
-|  41 | 2020.09.05 | Bullet      |            914 |           1655 | 0-1      | https://lichess.org/hxWwgqf8 |            2569 |
-|  42 | 2020.09.06 | Blitz       |           2247 |           1895 | 1-0      | https://lichess.org/jVHm2IGs |            4142 |
-|  43 | 2020.09.06 | Blitz       |           1961 |           1921 | 1-0      | https://lichess.org/gBKbfTCs |            3882 |
-|  44 | 2020.09.06 | Rapid       |           1992 |           1729 | 1-0      | https://lichess.org/OJZaedQn |            3721 |
-|  45 | 2020.09.06 | Blitz       |           1933 |           1761 | 1-0      | https://lichess.org/aBnvQIEo |            3694 |
-|  46 | 2020.09.06 | Blitz       |           1889 |           1755 | 0-1      | https://lichess.org/1U4ctodG |            3644 |
-|  47 | 2020.09.06 | Bullet      |           1818 |           1819 | 0-1      | https://lichess.org/sl9ehEMb |            3637 |
-|  48 | 2020.09.06 | Rapid       |           1770 |           1772 | 0-1      | https://lichess.org/ONb7pNOk |            3542 |
-|  49 | 2020.09.06 | Blitz       |           1699 |           1721 | 0-1      | https://lichess.org/GuWuBxhf |            3420 |
-|  50 | 2020.09.06 | Bullet      |           1713 |           1633 | 1-0      | https://lichess.org/yr1zTVcW |            3346 |
-|  51 | 2020.09.06 | Rapid       |           1531 |           1568 | 1-0      | https://lichess.org/KkRJNgOT |            3099 |
-|  52 | 2020.09.06 | Blitz       |           1537 |           1482 | 1-0      | https://lichess.org/zfW5TBng |            3019 |
-|  53 | 2020.09.06 | Blitz       |           1679 |           1292 | 0-1      | https://lichess.org/GiauRqTm |            2971 |
-|  54 | 2020.09.06 | Rapid       |           1439 |           1515 | 1-0      | https://lichess.org/aK0jKjqM |            2954 |
-|  55 | 2020.09.07 | Blitz       |           2029 |           2061 | 1-0      | https://lichess.org/ESmI7kbC |            4090 |
-|  56 | 2020.09.07 | Blitz       |           1872 |           1825 | 1-0      | https://lichess.org/Dh9gMMDX |            3697 |
-|  57 | 2020.09.07 | Bullet      |           1835 |           1808 | 1-0      | https://lichess.org/OM5cNeg9 |            3643 |
-|  58 | 2020.09.07 | Blitz       |           1541 |           1963 | 0-1      | https://lichess.org/43b1txlI |            3504 |
-|  59 | 2020.09.07 |             |           1524 |           1456 | 0-1      | https://lichess.org/UsRGihEu |            2980 |
-|  60 | 2020.09.08 | Blitz       |           2253 |           2285 | 0-1      | https://lichess.org/hHSc9FDc |            4538 |
-|  61 | 2020.09.08 | Bullet      |           1850 |           2179 | 1-0      | https://lichess.org/jMHM8HZ7 |            4029 |
-|  62 | 2020.09.08 | Blitz       |           1981 |           2007 | 1-0      | https://lichess.org/OAGWwt4i |            3988 |
-|  63 | 2020.09.08 | Rapid       |           2087 |           1877 | 1-0      | https://lichess.org/VIlMgwVW |            3964 |
-|  64 | 2020.09.08 | Blitz       |           1835 |           2013 | 0-1      | https://lichess.org/NKrDueX3 |            3848 |
-|  65 | 2020.09.08 | Blitz       |           1889 |           1931 | 1-0      | https://lichess.org/QBJdV33c |            3820 |
-|  66 | 2020.09.08 | Bullet      |           1873 |           1920 | 0-1      | https://lichess.org/YsNQ28oY |            3793 |
-|  67 | 2020.09.08 | Bullet      |           1951 |           1810 | 1-0      | https://lichess.org/wGL1U0bd |            3761 |
-|  68 | 2020.09.08 | Blitz       |           1878 |           1801 | 0-1      | https://lichess.org/uoONcsyQ |            3679 |
-|  69 | 2020.09.08 | Blitz       |           1845 |           1831 | 0-1      | https://lichess.org/O1mtpYtG |            3676 |
-|  70 | 2020.09.08 | Bullet      |           1660 |           1762 | 0-1      | https://lichess.org/xEFQywMc |            3422 |
-|  71 | 2020.09.09 | Blitz       |           1935 |           1940 | 1-0      | https://lichess.org/8P6UFzwR |            3875 |
-|  72 | 2020.09.09 | Bullet      |           1851 |           1895 | 1-0      | https://lichess.org/V3xiKPw0 |            3746 |
-|  73 | 2020.09.09 | Blitz       |           1777 |           1899 | 1-0      | https://lichess.org/ubXhoqKX |            3676 |
-|  74 | 2020.09.09 | Blitz       |           1778 |           1860 | 1-0      | https://lichess.org/NaRoM0hr |            3638 |
-|  75 | 2020.09.09 | Blitz       |           1332 |           2020 | 0-1      | https://lichess.org/5cBgQJK6 |            3352 |
-|  76 | 2020.09.09 | Blitz       |           1721 |           1617 | 0-1      | https://lichess.org/mDF11iwK |            3338 |
-|  77 | 2020.09.09 | Rapid       |           1626 |           1643 | 1-0      | https://lichess.org/b66Bnzbb |            3269 |
-|  78 | 2020.09.09 | Blitz       |           1459 |           1494 | 1-0      | https://lichess.org/m94eY8wt |            2953 |
-|  79 | 2020.09.09 | Blitz       |           1408 |           1394 | 0-1      | https://lichess.org/gpXGG4Q0 |            2802 |
-|  80 | 2020.09.09 | Rapid       |           1342 |           1351 | 0-1      | https://lichess.org/0McdZXBD |            2693 |
-|  81 | 2020.09.09 | Rapid       |           1155 |           1226 | 1-0      | https://lichess.org/XxKAeX8J |            2381 |
-|  82 | 2020.09.10 | Bullet      |           2141 |           2095 | 0-1      | https://lichess.org/HOiSOvyV |            4236 |
-|  83 | 2020.09.10 | Blitz       |           2109 |           2047 | 1-0      | https://lichess.org/ihySZlhv |            4156 |
-|  84 | 2020.09.10 | Blitz       |           2019 |           1982 | 0-1      | https://lichess.org/5OeHsfRg |            4001 |
-|  85 | 2020.09.10 | Bullet      |           1890 |           1902 | 1-0      | https://lichess.org/nNt0tAkE |            3792 |
-|  86 | 2020.09.10 | Blitz       |           1931 |           1742 | 1-0      | https://lichess.org/48WcFwf0 |            3673 |
-|  87 | 2020.09.10 | Rapid       |           1813 |           1774 | 1-0      | https://lichess.org/xOwgorD3 |            3587 |
-|  88 | 2020.09.10 | Blitz       |           1620 |           1602 | 1-0      | https://lichess.org/FV8bte5y |            3222 |
-|  89 | 2020.09.10 | Blitz       |           1603 |           1575 | 0-1      | https://lichess.org/YG0IFz19 |            3178 |
-|  90 | 2020.09.10 | Blitz       |           1580 |           1580 | 0-1      | https://lichess.org/cn0abEr9 |            3160 |
-|  91 | 2020.09.10 | Blitz       |           1531 |           1555 | 0-1      | https://lichess.org/QVRDloZK |            3086 |
-|  92 | 2020.09.10 | Blitz       |           1811 |           1249 | 1-0      | https://lichess.org/rPlF1DUl |            3060 |
-|  93 | 2020.09.10 | Blitz       |           1511 |           1497 | 0-1      | https://lichess.org/mNtHPlzb |            3008 |
-|  94 | 2020.09.10 | Blitz       |           1443 |           1467 | 0-1      | https://lichess.org/EgYeUy98 |            2910 |
-|  95 | 2020.09.11 | Bullet      |           2062 |           1981 | 1-0      | https://lichess.org/Y0HuVXE0 |            4043 |
-|  96 | 2020.09.11 | Bullet      |           1739 |           1795 | 1-0      | https://lichess.org/gvEXAdhF |            3534 |
-|  97 | 2020.09.11 | Bullet      |           2120 |           1399 | 1-0      | https://lichess.org/JboIXqGU |            3519 |
-|  98 | 2020.09.11 | Blitz       |           1648 |           1849 | 0-1      | https://lichess.org/3vc913ab |            3497 |
-|  99 | 2020.09.11 | Blitz       |           1656 |           1676 | 0-1      | https://lichess.org/neCtdb8E |            3332 |
-| 100 | 2020.09.11 | Blitz       |           1658 |           1652 | 0-1      | https://lichess.org/5jbkUyRl |            3310 |
-| 101 | 2020.09.11 | Bullet      |           1570 |           1564 | 1-0      | https://lichess.org/4tWPFd9y |            3134 |
-| 102 | 2020.09.11 | Blitz       |           1454 |           1439 | 1-0      | https://lichess.org/JVDoUOdo |            2893 |
-| 103 | 2020.09.11 | Blitz       |           1420 |           1429 | 0-1      | https://lichess.org/kD1C6hLi |            2849 |
-| 104 | 2020.09.11 | Bullet      |           1261 |           1255 | 1-0      | https://lichess.org/l2RbObSP |            2516 |
-| 105 | 2020.09.12 | Blitz       |           2467 |           2326 | 1-0      | https://lichess.org/cc8A1WpG |            4793 |
-| 106 | 2020.09.12 | Blitz       |           2350 |           2210 | 1-0      | https://lichess.org/tdfKuEJi |            4560 |
-| 107 | 2020.09.12 | Blitz       |           2152 |           2152 | 0-1      | https://lichess.org/WOb2f9Jt |            4304 |
-| 108 | 2020.09.12 | Blitz       |           2182 |           1959 | 1-0      | https://lichess.org/VTNM5drT |            4141 |
-| 109 | 2020.09.12 | Rapid       |           1980 |           2064 | 1-0      | https://lichess.org/66ati0hH |            4044 |
-| 110 | 2020.09.12 | Blitz       |           1719 |           2211 | 0-1      | https://lichess.org/9VTo4R7j |            3930 |
-| 111 | 2020.09.12 | Bullet      |           1780 |           1770 | 0-1      | https://lichess.org/PXjCPbXR |            3550 |
-| 112 | 2020.09.12 | Blitz       |           1744 |           1744 | 0-1      | https://lichess.org/M5s5ckvY |            3488 |
-| 113 | 2020.09.12 | Bullet      |           1536 |           1560 | 0-1      | https://lichess.org/qlXxLTXa |            3096 |
-| 114 | 2020.09.12 | Blitz       |           1423 |           1394 | 1-0      | https://lichess.org/GICfgUoN |            2817 |
-| 115 | 2020.09.12 | Bullet      |           1352 |           1409 | 1-0      | https://lichess.org/tQ0FaOyC |            2761 |
-| 116 | 2020.09.12 | Blitz       |           1318 |           1288 | 0-1      | https://lichess.org/bm5SB2ql |            2606 |
-| 117 | 2020.09.12 | Blitz       |           1499 |           1104 | 1-0      | https://lichess.org/I6krbY7t |            2603 |
-| 118 | 2020.09.13 | Bullet      |           2265 |           2580 | 0-1      | https://lichess.org/pSrrcWRo |            4845 |
-| 119 | 2020.09.13 | Blitz       |           2274 |           2227 | 0-1      | https://lichess.org/g7ika6D1 |            4501 |
-| 120 | 2020.09.13 | Blitz       |           2055 |           2042 | 1-0      | https://lichess.org/DzYWRQTo |            4097 |
-| 121 | 2020.09.13 | Rapid       |           2077 |           2000 | 1-0      | https://lichess.org/ao7vxFKj |            4077 |
-| 122 | 2020.09.13 | Bullet      |           2031 |           2032 | 0-1      | https://lichess.org/CvtveufI |            4063 |
-| 123 | 2020.09.13 | Blitz       |           2009 |           1943 | 1-0      | https://lichess.org/CmnTmDTU |            3952 |
-| 124 | 2020.09.13 | Blitz       |           1910 |           1854 | 1-0      | https://lichess.org/MwxDGKFG |            3764 |
-| 125 | 2020.09.13 | Rapid       |           1348 |           1966 | 0-1      | https://lichess.org/C0EeRwqJ |            3314 |
-| 126 | 2020.09.13 | Bullet      |           1590 |           1640 | 0-1      | https://lichess.org/C2gtGXfn |            3230 |
-| 127 | 2020.09.13 | Bullet      |           1613 |           1609 | 0-1      | https://lichess.org/CPDxuX4p |            3222 |
-| 128 | 2020.09.13 | Bullet      |           1582 |           1587 | 1-0      | https://lichess.org/tIiqBh61 |            3169 |
-| 129 | 2020.09.14 | Blitz       |           1922 |           2031 | 1-0      | https://lichess.org/5PW1qbCR |            3953 |
-| 130 | 2020.09.14 | Rapid       |           1898 |           1759 | 0-1      | https://lichess.org/LqceO8YS |            3657 |
-| 131 | 2020.09.14 | Bullet      |           1821 |           1802 | 1-0      | https://lichess.org/onscumtW |            3623 |
-| 132 | 2020.09.14 | Blitz       |           1260 |           1263 | 1-0      | https://lichess.org/lkrLLGJP |            2523 |
-| 133 | 2020.09.14 | Blitz       |           1162 |           1170 | 1-0      | https://lichess.org/KNqSZXh0 |            2332 |
-| 134 | 2020.09.15 | Blitz       |           2092 |           2218 | 0-1      | https://lichess.org/zA5Mm3Yt |            4310 |
-| 135 | 2020.09.15 | Bullet      |           2070 |           2109 | 0-1      | https://lichess.org/XwdI4xPS |            4179 |
-| 136 | 2020.09.15 | Bullet      |           2093 |           2063 | 1-0      | https://lichess.org/NjOGn49w |            4156 |
-| 137 | 2020.09.15 | Bullet      |           1798 |           1880 | 0-1      | https://lichess.org/3DxXts9q |            3678 |
-| 138 | 2020.09.15 | Bullet      |           1774 |           1816 | 1-0      | https://lichess.org/z6kdnnxz |            3590 |
-| 139 | 2020.09.15 | Blitz       |           1668 |           1683 | 0-1      | https://lichess.org/pRY8QW1F |            3351 |
-| 140 | 2020.09.15 | Blitz       |           1558 |           1520 | 0-1      | https://lichess.org/ryl5TG61 |            3078 |
-| 141 | 2020.09.15 | Blitz       |           1491 |           1487 | 1-0      | https://lichess.org/OuuxRTUO |            2978 |
-| 142 | 2020.09.15 | Bullet      |           1506 |           1443 | 1-0      | https://lichess.org/rM3ekiAz |            2949 |
-| 143 | 2020.09.15 | Blitz       |           1349 |           1364 | 1-0      | https://lichess.org/4ylc25Bu |            2713 |
-| 144 | 2020.09.15 | Bullet      |           1313 |           1289 | 1-0      | https://lichess.org/i0vTmXPM |            2602 |
-| 145 | 2020.09.15 | Blitz       |           1310 |           1258 | 1-0      | https://lichess.org/g4omYEKZ |            2568 |
-| 146 | 2020.09.16 | Blitz       |           2139 |           2150 | 0-1      | https://lichess.org/zgwXyROb |            4289 |
-| 147 | 2020.09.16 | Blitz       |           2237 |           1994 | 1-0      | https://lichess.org/A4taObrA |            4231 |
-| 148 | 2020.09.16 | Blitz       |           2019 |           1649 | 0-1      | https://lichess.org/rJoJHL7k |            3668 |
-| 149 | 2020.09.16 | Blitz       |           2134 |           1533 | 1-0      | https://lichess.org/BLkWNuiN |            3667 |
-| 150 | 2020.09.16 | Blitz       |           1679 |           1684 | 1-0      | https://lichess.org/aq5mMdOY |            3363 |
-| 151 | 2020.09.16 | Blitz       |           1607 |           1669 | 1-0      | https://lichess.org/O8U2JFP5 |            3276 |
-| 152 | 2020.09.16 | Bullet      |           1630 |           1636 | 1-0      | https://lichess.org/q3IUIeGN |            3266 |
-| 153 | 2020.09.16 | Bullet      |           1205 |           1563 | 0-1      | https://lichess.org/N5YSrkxh |            2768 |
-| 154 | 2020.09.16 | Bullet      |           1321 |           1282 | 1-0      | https://lichess.org/cTwnKmkQ |            2603 |
-| 155 | 2020.09.17 | Bullet      |           2057 |           2379 | 0-1      | https://lichess.org/Izfmkr6T |            4436 |
-| 156 | 2020.09.17 | Blitz       |           2048 |           2110 | 1-0      | https://lichess.org/StZ0ww4C |            4158 |
-| 157 | 2020.09.17 | Blitz       |           2028 |           2042 | 0-1      | https://lichess.org/7EYnEgZS |            4070 |
-| 158 | 2020.09.17 | Bullet      |           2003 |           2044 | 0-1      | https://lichess.org/mxcuvIZw |            4047 |
-| 159 | 2020.09.17 | Bullet      |           1954 |           2010 | 0-1      | https://lichess.org/Os7AtcvD |            3964 |
-| 160 | 2020.09.17 | Blitz       |           2075 |           1859 | 1-0      | https://lichess.org/nbqZToxl |            3934 |
-| 161 | 2020.09.17 | Blitz       |           1907 |           1900 | 0-1      | https://lichess.org/d8HMzGCK |            3807 |
-| 162 | 2020.09.17 | Rapid       |           1888 |           1878 | 1-0      | https://lichess.org/g6eRHxHx |            3766 |
-| 163 | 2020.09.17 | Blitz       |           1740 |           1755 | 1-0      | https://lichess.org/EQJKLBdN |            3495 |
-| 164 | 2020.09.17 | Bullet      |           1641 |           1637 | 1-0      | https://lichess.org/FBwhpfaZ |            3278 |
-| 165 | 2020.09.17 | Blitz       |           1649 |           1596 | 1-0      | https://lichess.org/DKlFY2mJ |            3245 |
-| 166 | 2020.09.17 | Rapid       |           1546 |           1604 | 0-1      | https://lichess.org/SG4ftmQS |            3150 |
-| 167 | 2020.09.17 | Rapid       |           1591 |           1554 | 1-0      | https://lichess.org/VsF2nCt5 |            3145 |
-| 168 | 2020.09.17 | Blitz       |           1454 |           1426 | 1-0      | https://lichess.org/KghHQJ0v |            2880 |
-| 169 | 2020.09.17 | Bullet      |           1278 |           1303 | 0-1      | https://lichess.org/aQdySfQA |            2581 |
-| 170 | 2020.09.18 | Bullet      |           2043 |           2050 | 0-1      | https://lichess.org/Td7c1rFA |            4093 |
-| 171 | 2020.09.18 | Rapid       |           2166 |           1753 | 1-0      | https://lichess.org/MwUrTcAc |            3919 |
-| 172 | 2020.09.18 | Blitz       |           1929 |           1951 | 1-0      | https://lichess.org/1dLbUFHv |            3880 |
-| 173 | 2020.09.18 | Rapid       |           1800 |           1954 | 0-1      | https://lichess.org/OW13v5QM |            3754 |
-| 174 | 2020.09.18 | Blitz       |           1899 |           1843 | 0-1      | https://lichess.org/PoZf9i3Z |            3742 |
-| 175 | 2020.09.18 | Bullet      |           1811 |           1713 | 1-0      | https://lichess.org/iuTwRy0E |            3524 |
-| 176 | 2020.09.18 | Rapid       |           1566 |           1626 | 1-0      | https://lichess.org/JjHK5rmP |            3192 |
-| 177 | 2020.09.18 | Bullet      |           1215 |           1967 | 1-0      | https://lichess.org/1kmlJTsm |            3182 |
-| 178 | 2020.09.18 | Blitz       |           1288 |           1314 | 1-0      | https://lichess.org/jFouNWyG |            2602 |
-| 179 | 2020.09.19 | Blitz       |           2424 |           2446 | 1-0      | https://lichess.org/x3MTXftl |            4870 |
-| 180 | 2020.09.19 | Bullet      |           2086 |           2110 | 1-0      | https://lichess.org/C3LzIjXX |            4196 |
-| 181 | 2020.09.19 | Blitz       |           1982 |           1902 | 0-1      | https://lichess.org/yeht49u7 |            3884 |
-| 182 | 2020.09.19 | Blitz       |           1849 |           1887 | 0-1      | https://lichess.org/6NMEWcvD |            3736 |
-| 183 | 2020.09.19 | Bullet      |           1857 |           1793 | 0-1      | https://lichess.org/7KqCGXkV |            3650 |
-| 184 | 2020.09.19 | Blitz       |           1789 |           1858 | 0-1      | https://lichess.org/4oniplHu |            3647 |
-| 185 | 2020.09.19 | Blitz       |           1667 |           1665 | 0-1      | https://lichess.org/QiNcbCPR |            3332 |
-| 186 | 2020.09.19 | Blitz       |           1627 |           1654 | 0-1      | https://lichess.org/bQapo4pU |            3281 |
-| 187 | 2020.09.19 | Bullet      |           1576 |           1549 | 0-1      | https://lichess.org/RBwi4xIh |            3125 |
-| 188 | 2020.09.19 | Blitz       |           1417 |           1367 | 0-1      | https://lichess.org/LrBHrMVi |            2784 |
-| 189 | 2020.09.20 | Blitz       |           2222 |           2157 | 1-0      | https://lichess.org/FgpbQehZ |            4379 |
-| 190 | 2020.09.20 | Blitz       |           2072 |           2110 | 0-1      | https://lichess.org/hrsg88oA |            4182 |
-| 191 | 2020.09.20 | Blitz       |           2089 |           2065 | 1-0      | https://lichess.org/dNDz07mR |            4154 |
-| 192 | 2020.09.20 | Bullet      |           2096 |           1964 | 1-0      | https://lichess.org/YWmwFnXx |            4060 |
-| 193 | 2020.09.20 | Blitz       |           1871 |           1797 | 1-0      | https://lichess.org/Ca1jkfhc |            3668 |
-| 194 | 2020.09.20 | Bullet      |           1818 |           1814 | 1-0      | https://lichess.org/nKbYr8WR |            3632 |
-| 195 | 2020.09.20 | Bullet      |           1805 |           1799 | 0-1      | https://lichess.org/k0cENdlQ |            3604 |
-| 196 | 2020.09.20 | Blitz       |           1695 |           1718 | 1-0      | https://lichess.org/O5MpQqfp |            3413 |
-| 197 | 2020.09.20 | Blitz       |           1705 |           1708 | 0-1      | https://lichess.org/yUmGqMa2 |            3413 |
-| 198 | 2020.09.20 | Bullet      |           1500 |           1860 | 0-1      | https://lichess.org/kDnuXodR |            3360 |
-| 199 | 2020.09.20 | Bullet      |           1549 |           1563 | 1-0      | https://lichess.org/njrbFAvq |            3112 |
-| 200 | 2020.09.20 | Blitz       |           1562 |           1528 | 1-0      | https://lichess.org/7fv8ZoVY |            3090 |
-| 201 | 2020.09.20 | Blitz       |           1544 |           1422 | 1-0      | https://lichess.org/6cLa3np2 |            2966 |
-| 202 | 2020.09.20 | Blitz       |           1417 |           1473 | 0-1      | https://lichess.org/FIkxOFse |            2890 |
-| 203 | 2020.09.20 | Blitz       |           1287 |           1411 | 0-1      | https://lichess.org/zJX1EvSf |            2698 |
-| 204 | 2020.09.20 | Blitz       |           1172 |           1016 | 1-0      | https://lichess.org/EeVqYtwH |            2188 |
-| 205 | 2020.09.20 | Blitz       |           1067 |           1048 | 1-0      | https://lichess.org/gKuph6m1 |            2115 |
-| 206 | 2020.09.21 | Blitz       |           2156 |           2356 | 1-0      | https://lichess.org/ICd4jEpv |            4512 |
-| 207 | 2020.09.21 | Bullet      |           1992 |           1988 | 1-0      | https://lichess.org/8KN4PXps |            3980 |
-| 208 | 2020.09.21 | Bullet      |           1894 |           1878 | 0-1      | https://lichess.org/m4E3wtPi |            3772 |
-| 209 | 2020.09.21 | Blitz       |           2240 |           1337 | 1-0      | https://lichess.org/rKjC5Rq2 |            3577 |
-| 210 | 2020.09.21 | Rapid       |           1839 |           1360 | 1-0      | https://lichess.org/HPeAOrWA |            3199 |
-| 211 | 2020.09.21 | Blitz       |           1480 |           1541 | 1-0      | https://lichess.org/ADuYO9eV |            3021 |
-| 212 | 2020.09.21 | Blitz       |           1694 |           1310 | 0-1      | https://lichess.org/BU9WwyJ1 |            3004 |
-| 213 | 2020.09.21 | Blitz       |           1384 |           1407 | 1-0      | https://lichess.org/rBhjQUBw |            2791 |
-| 214 | 2020.09.22 | Bullet      |           2365 |           2331 | 0-1      | https://lichess.org/yh5PDIWx |            4696 |
-| 215 | 2020.09.22 | Blitz       |           2108 |           2100 | 1-0      | https://lichess.org/XlgFIaaD |            4208 |
-| 216 | 2020.09.22 | Blitz       |           2039 |           2026 | 1-0      | https://lichess.org/LKBBeP4O |            4065 |
-| 217 | 2020.09.22 | Bullet      |           2016 |           2009 | 1-0      | https://lichess.org/qHYZKVou |            4025 |
-| 218 | 2020.09.22 | Rapid       |           1887 |           1924 | 0-1      | https://lichess.org/aOxaQFxT |            3811 |
-| 219 | 2020.09.22 | Bullet      |           1869 |           1872 | 1-0      | https://lichess.org/Yh2t99Im |            3741 |
-| 220 | 2020.09.22 | Rapid       |           1844 |           1874 | 0-1      | https://lichess.org/V44mLiXy |            3718 |
-| 221 | 2020.09.22 | Blitz       |           1707 |           1868 | 1-0      | https://lichess.org/ysWmGEFz |            3575 |
-| 222 | 2020.09.22 | Bullet      |           1718 |           1735 | 1-0      | https://lichess.org/LQZHgK19 |            3453 |
-| 223 | 2020.09.22 | Blitz       |           1374 |           1466 | 0-1      | https://lichess.org/mAeS8BYx |            2840 |
-| 224 | 2020.09.22 | Blitz       |           1299 |           1188 | 0-1      | https://lichess.org/Rkxqt2fj |            2487 |
-| 225 | 2020.09.22 | Blitz       |           1038 |           1073 | 0-1      | https://lichess.org/jjDE50Wq |            2111 |
-| 226 | 2020.09.23 | Bullet      |           1966 |           1974 | 0-1      | https://lichess.org/pTVDUi3u |            3940 |
-| 227 | 2020.09.23 | Rapid       |           1883 |           1897 | 1-0      | https://lichess.org/YDoyUDpu |            3780 |
-| 228 | 2020.09.23 | Blitz       |           1850 |           1861 | 1-0      | https://lichess.org/YJurSqnc |            3711 |
-| 229 | 2020.09.23 | Blitz       |           1787 |           1836 | 1-0      | https://lichess.org/mFQKPHrn |            3623 |
-| 230 | 2020.09.23 | Rapid       |           1604 |           1848 | 0-1      | https://lichess.org/gXegDrHW |            3452 |
-| 231 | 2020.09.23 | Blitz       |           1791 |           1373 | 1-0      | https://lichess.org/qIeRCDbY |            3164 |
-| 232 | 2020.09.23 | Blitz       |           1333 |           1278 | 1-0      | https://lichess.org/SDejRkZm |            2611 |
-| 233 | 2020.09.23 | Bullet      |           1162 |           1179 | 1-0      | https://lichess.org/u0je6ai0 |            2341 |
-| 234 | 2020.09.23 | Blitz       |           1128 |           1149 | 1-0      | https://lichess.org/etngPm8i |            2277 |
-| 235 | 2020.09.23 | Blitz       |           1430 |            827 | 1-0      | https://lichess.org/Zjn8WoyP |            2257 |
-| 236 | 2020.09.23 | Blitz       |           1109 |           1081 | 0-1      | https://lichess.org/iiGrUNCx |            2190 |
-| 237 | 2020.09.24 | Rapid       |           2180 |           2140 | 0-1      | https://lichess.org/sMUMMNan |            4320 |
-| 238 | 2020.09.24 | Blitz       |           2078 |           1986 | 1-0      | https://lichess.org/u3bRKbbj |            4064 |
-| 239 | 2020.09.24 | Blitz       |           1954 |           2047 | 0-1      | https://lichess.org/JWf54DWF |            4001 |
-| 240 | 2020.09.24 | Blitz       |           1997 |           1955 | 1-0      | https://lichess.org/9Qrmqv6w |            3952 |
-| 241 | 2020.09.24 | Bullet      |           1958 |           1886 | 1-0      | https://lichess.org/MJkRG9JH |            3844 |
-| 242 | 2020.09.24 | Blitz       |           1819 |           1940 | 1-0      | https://lichess.org/SNroTsZE |            3759 |
-| 243 | 2020.09.24 | Blitz       |           1604 |           1923 | 0-1      | https://lichess.org/0JT0tkGK |            3527 |
-| 244 | 2020.09.24 | Blitz       |           1751 |           1771 | 1-0      | https://lichess.org/EhHXt9o4 |            3522 |
-| 245 | 2020.09.24 | Blitz       |           1568 |           1863 | 1-0      | https://lichess.org/mReqqOzR |            3431 |
-| 246 | 2020.09.24 | Bullet      |           1674 |           1522 | 1-0      | https://lichess.org/pRkLvVHp |            3196 |
-| 247 | 2020.09.24 | Blitz       |           1527 |           1561 | 0-1      | https://lichess.org/WV0ik4fB |            3088 |
-| 248 | 2020.09.24 | Bullet      |           1409 |           1440 | 1-0      | https://lichess.org/4UZzVKIC |            2849 |
-| 249 | 2020.09.24 | Bullet      |           1392 |           1389 | 1-0      | https://lichess.org/76QLe1Sn |            2781 |
-| 250 | 2020.09.24 | Blitz       |           1283 |           1442 | 1-0      | https://lichess.org/uQCdP5yy |            2725 |
-| 251 | 2020.09.24 | Rapid       |           1350 |           1368 | 1-0      | https://lichess.org/SEvuO2Dv |            2718 |
-| 252 | 2020.09.25 | Bullet      |           2333 |           2304 | 1-0      | https://lichess.org/gjPvDS21 |            4637 |
-| 253 | 2020.09.25 | Bullet      |           2027 |           2096 | 1-0      | https://lichess.org/ioNJL5PW |            4123 |
-| 254 | 2020.09.25 | Blitz       |           2087 |           1938 | 1-0      | https://lichess.org/nd8DONAL |            4025 |
-| 255 | 2020.09.25 | Blitz       |           2067 |           1925 | 1-0      | https://lichess.org/Xy6ukOQK |            3992 |
-| 256 | 2020.09.25 | Blitz       |           1915 |           1924 | 1-0      | https://lichess.org/E7dePjTY |            3839 |
-| 257 | 2020.09.25 | Blitz       |           1932 |           1884 | 1-0      | https://lichess.org/cXZDSYrl |            3816 |
-| 258 | 2020.09.25 | Blitz       |           1911 |           1869 | 0-1      | https://lichess.org/yBPHoLLW |            3780 |
-| 259 | 2020.09.25 | Blitz       |           1834 |           1807 | 0-1      | https://lichess.org/0Jsjoqlz |            3641 |
-| 260 | 2020.09.25 | Blitz       |           1687 |           1678 | 1-0      | https://lichess.org/klryFdDU |            3365 |
-| 261 | 2020.09.25 | Rapid       |           1665 |           1694 | 1-0      | https://lichess.org/oxFqlk7h |            3359 |
-| 262 | 2020.09.25 | Bullet      |           1587 |           1709 | 0-1      | https://lichess.org/JsiJAnGO |            3296 |
-| 263 | 2020.09.25 |             |           1207 |           1882 | 0-1      | https://lichess.org/wraaKLwL |            3089 |
-| 264 | 2020.09.25 | Rapid       |           1544 |           1467 | 0-1      | https://lichess.org/VVoX9gZQ |            3011 |
-| 265 | 2020.09.26 | Bullet      |           2038 |           2493 | 0-1      | https://lichess.org/hx8XtePK |            4531 |
-| 266 | 2020.09.26 | Blitz       |           1983 |           1995 | 1-0      | https://lichess.org/HI5EyHAv |            3978 |
-| 267 | 2020.09.26 | Rapid       |           1892 |           1902 | 0-1      | https://lichess.org/LSOeAV5g |            3794 |
-| 268 | 2020.09.26 | Blitz       |           1799 |           1963 | 0-1      | https://lichess.org/qbHfFJZb |            3762 |
-| 269 | 2020.09.26 | Bullet      |           1754 |           1760 | 1-0      | https://lichess.org/nEGdrwK1 |            3514 |
-| 270 | 2020.09.26 | Blitz       |           1740 |           1742 | 0-1      | https://lichess.org/jZPygzRs |            3482 |
-| 271 | 2020.09.26 | Blitz       |           1722 |           1722 | 0-1      | https://lichess.org/ndR2s0RR |            3444 |
-| 272 | 2020.09.26 | Blitz       |           1712 |           1707 | 1-0      | https://lichess.org/BerzSGmn |            3419 |
-| 273 | 2020.09.26 | Bullet      |           1703 |           1692 | 1-0      | https://lichess.org/2KPewoLD |            3395 |
-| 274 | 2020.09.26 | Blitz       |           1656 |           1552 | 1-0      | https://lichess.org/EqPsGcsb |            3208 |
-| 275 | 2020.09.27 | Bullet      |           2486 |           2340 | 1-0      | https://lichess.org/swOgTCeP |            4826 |
-| 276 | 2020.09.27 | Bullet      |           2080 |           2085 | 0-1      | https://lichess.org/cGzRTsqU |            4165 |
-| 277 | 2020.09.27 | Blitz       |           2031 |           2024 | 0-1      | https://lichess.org/oDTeZ3kQ |            4055 |
-| 278 | 2020.09.27 | Blitz       |           1870 |           1896 | 0-1      | https://lichess.org/Sx3PuNVU |            3766 |
-| 279 | 2020.09.27 | Bullet      |           1866 |           1893 | 0-1      | https://lichess.org/K4fcDiwN |            3759 |
-| 280 | 2020.09.27 | Blitz       |           1849 |           1836 | 0-1      | https://lichess.org/xGoyhifQ |            3685 |
-| 281 | 2020.09.27 | Blitz       |           1794 |           1889 | 0-1      | https://lichess.org/3VflPzsJ |            3683 |
-| 282 | 2020.09.27 | Rapid       |           1755 |           1752 | 0-1      | https://lichess.org/JGPaOk1l |            3507 |
-| 283 | 2020.09.27 | Bullet      |           1609 |           1604 | 0-1      | https://lichess.org/bCi47CMA |            3213 |
-| 284 | 2020.09.27 | Blitz       |           1523 |           1443 | 0-1      | https://lichess.org/Hbje24Tp |            2966 |
-| 285 | 2020.09.27 | Rapid       |           1278 |           1052 | 1-0      | https://lichess.org/ssPfk5sB |            2330 |
-| 286 | 2020.09.27 | Blitz       |           1084 |           1144 | 0-1      | https://lichess.org/N664hmmp |            2228 |
-| 287 | 2020.09.28 | Bullet      |           2214 |           2343 | 0-1      | https://lichess.org/3ZHJtngp |            4557 |
-| 288 | 2020.09.28 | Bullet      |           2101 |           2143 | 1-0      | https://lichess.org/0uPz77LR |            4244 |
-| 289 | 2020.09.28 | Bullet      |           2026 |           2119 | 1-0      | https://lichess.org/4KOdt1r4 |            4145 |
-| 290 | 2020.09.28 | Rapid       |           1915 |           1924 | 1-0      | https://lichess.org/TovWlwYj |            3839 |
-| 291 | 2020.09.28 | Blitz       |           1575 |           2013 | 0-1      | https://lichess.org/tNTCsZSY |            3588 |
-| 292 | 2020.09.28 | Rapid       |           1701 |           1714 | 1-0      | https://lichess.org/z4S3YW0S |            3415 |
-| 293 | 2020.09.28 | Blitz       |           1722 |           1680 | 1-0      | https://lichess.org/5epeMMZO |            3402 |
-| 294 | 2020.09.28 | Blitz       |           1612 |           1617 | 1-0      | https://lichess.org/9gjwK5KX |            3229 |
-| 295 | 2020.09.28 | Blitz       |           1244 |           1301 | 1-0      | https://lichess.org/mMIsIP5M |            2545 |
-| 296 | 2020.09.29 | Blitz       |           2330 |           2252 | 0-1      | https://lichess.org/KQAM68sf |            4582 |
-| 297 | 2020.09.29 | Bullet      |           2138 |           2097 | 1-0      | https://lichess.org/SnsbM39F |            4235 |
-| 298 | 2020.09.29 | Blitz       |           2066 |           2046 | 1-0      | https://lichess.org/6Dz6P1RL |            4112 |
-| 299 | 2020.09.29 | Blitz       |           2037 |           2037 | 1-0      | https://lichess.org/v38sCsyb |            4074 |
-| 300 | 2020.09.29 | Blitz       |           1980 |           1966 | 0-1      | https://lichess.org/HN6MEyJk |            3946 |
-| 301 | 2020.09.29 | Bullet      |           1989 |           1907 | 1-0      | https://lichess.org/OvvjqeLM |            3896 |
-| 302 | 2020.09.29 | Blitz       |           1979 |           1866 | 1-0      | https://lichess.org/TG9yau56 |            3845 |
-| 303 | 2020.09.29 | Bullet      |           1910 |           1848 | 1-0      | https://lichess.org/53SsX684 |            3758 |
-| 304 | 2020.09.29 | Bullet      |           1857 |           1875 | 0-1      | https://lichess.org/FDydcjRH |            3732 |
-| 305 | 2020.09.29 | Bullet      |           1884 |           1813 | 0-1      | https://lichess.org/4CNk7L0V |            3697 |
-| 306 | 2020.09.29 | Bullet      |           1878 |           1789 | 1-0      | https://lichess.org/oN4U4qM3 |            3667 |
-| 307 | 2020.09.29 | Blitz       |           1980 |           1602 | 1-0      | https://lichess.org/BWbhX49U |            3582 |
-| 308 | 2020.09.29 | Rapid       |           1741 |           1654 | 1-0      | https://lichess.org/d8tX9HTx |            3395 |
-| 309 | 2020.09.29 | Bullet      |           1628 |           1646 | 1-0      | https://lichess.org/Upt2Rb93 |            3274 |
-| 310 | 2020.09.29 | Rapid       |           1459 |           1480 | 1-0      | https://lichess.org/O3QsYCCz |            2939 |
-| 311 | 2020.09.30 | Blitz       |           2179 |           2236 | 1-0      | https://lichess.org/kdA5T4nV |            4415 |
-| 312 | 2020.09.30 | Blitz       |           2491 |           1734 | 1-0      | https://lichess.org/DqDXcYQm |            4225 |
-| 313 | 2020.09.30 | Bullet      |           2024 |           2106 | 0-1      | https://lichess.org/Sx5H9hJF |            4130 |
-| 314 | 2020.09.30 | Blitz       |           2064 |           2015 | 1-0      | https://lichess.org/q8YRvRBU |            4079 |
-| 315 | 2020.09.30 | Blitz       |           1878 |           1937 | 1-0      | https://lichess.org/BXRMSRcI |            3815 |
-| 316 | 2020.09.30 | Blitz       |           1736 |           2072 | 1-0      | https://lichess.org/bhLA797H |            3808 |
-| 317 | 2020.09.30 | Blitz       |           1890 |           1914 | 0-1      | https://lichess.org/3bQsPVrL |            3804 |
-| 318 | 2020.09.30 | Blitz       |           1885 |           1865 | 1-0      | https://lichess.org/axbwiBX9 |            3750 |
-| 319 | 2020.09.30 | Blitz       |           2328 |           1352 | 1-0      | https://lichess.org/1VYbF3Zw |            3680 |
-| 320 | 2020.09.30 | Blitz       |           1744 |           1764 | 1-0      | https://lichess.org/9ZvZeVvl |            3508 |
-| 321 | 2020.09.30 | Bullet      |           1737 |           1745 | 0-1      | https://lichess.org/YYO2BSrD |            3482 |
-| 322 | 2020.09.30 | Blitz       |           1709 |           1722 | 1-0      | https://lichess.org/pyBQqcwz |            3431 |
-| 323 | 2020.09.30 | Bullet      |           1668 |           1647 | 0-1      | https://lichess.org/srabuD7h |            3315 |
-| 324 | 2020.09.30 | Rapid       |           1666 |           1640 | 1-0      | https://lichess.org/XcNToBh1 |            3306 |
-| 325 | 2020.09.30 | Rapid       |           1551 |           1514 | 1-0      | https://lichess.org/MxvEZk42 |            3065 |
-| 326 | 2020.09.30 | Blitz       |           1512 |           1463 | 1-0      | https://lichess.org/XsCDbaNx |            2975 |
-| 327 | 2020.09.30 | Rapid       |           1342 |           1379 | 1-0      | https://lichess.org/qzG8EXFa |            2721 |
-| 328 | 2020.09.30 | Bullet      |           1304 |           1321 | 1-0      | https://lichess.org/2W7DsaB7 |            2625 |
+|     | Date       | Game Type   |   White Rating |   Black Rating | Result   | Site                         |
+|----:|:-----------|:------------|---------------:|---------------:|:---------|:-----------------------------|
+|   0 | 2020.09.01 | Blitz       |           1885 |           1673 | 1-0      | https://lichess.org/syU0Tu0m |
+|   1 | 2020.09.01 | Blitz       |           1661 |           1717 | 0-1      | https://lichess.org/kntd0OYy |
+|   2 | 2020.09.01 | Blitz       |           1587 |           1584 | 1-0      | https://lichess.org/59iwlKbe |
+|   3 | 2020.09.01 | Blitz       |           1523 |           1640 | 0-1      | https://lichess.org/ima5NMGE |
+|   4 | 2020.09.01 | Rapid       |           1427 |           1445 | 0-1      | https://lichess.org/grcT1FWd |
+|   5 | 2020.09.02 | Bullet      |           2061 |           2049 | 1-0      | https://lichess.org/h7qktjH8 |
+|   6 | 2020.09.02 | Bullet      |           2204 |           1899 | 1-0      | https://lichess.org/gpOGv2Gj |
+|   7 | 2020.09.02 | Blitz       |           1866 |           1920 | 0-1      | https://lichess.org/SIReWHcS |
+|   8 | 2020.09.02 | Blitz       |           1680 |           1661 | 1-0      | https://lichess.org/QPPhrZfs |
+|   9 | 2020.09.02 |             |           1500 |           1500 | 0-1      | https://lichess.org/eZrdMIuu |
+|  10 | 2020.09.02 | Blitz       |           1392 |           1331 | 1-0      | https://lichess.org/ngQ0Nbe4 |
+|  11 | 2020.09.03 | Blitz       |           2053 |           2497 | 0-1      | https://lichess.org/flnalKAm |
+|  12 | 2020.09.03 | Bullet      |           2171 |           2168 | 1-0      | https://lichess.org/nzSbjSom |
+|  13 | 2020.09.03 | Blitz       |           2149 |           1963 | 1-0      | https://lichess.org/tQivvDL3 |
+|  14 | 2020.09.03 | Bullet      |           1899 |           2024 | 0-1      | https://lichess.org/0e9YJeXE |
+|  15 | 2020.09.03 | Blitz       |           1941 |           1942 | 1-0      | https://lichess.org/IsESevhH |
+|  16 | 2020.09.03 | Bullet      |           1741 |           1749 | 1-0      | https://lichess.org/ptz77A2r |
+|  17 | 2020.09.03 | Blitz       |           1670 |           1678 | 1-0      | https://lichess.org/2gS9Vl0R |
+|  18 | 2020.09.03 | Rapid       |           1574 |           1589 | 1-0      | https://lichess.org/3sAtlCyn |
+|  19 | 2020.09.03 | Blitz       |           1500 |           1503 | 0-1      | https://lichess.org/ynHAkJl2 |
+|  20 | 2020.09.03 | Blitz       |           1310 |           1292 | 0-1      | https://lichess.org/2s2zxSgE |
+|  21 | 2020.09.04 | Bullet      |           2284 |           2326 | 0-1      | https://lichess.org/CJ5CEzsl |
+|  22 | 2020.09.04 | Blitz       |           2227 |           2094 | 0-1      | https://lichess.org/TL9cZZm0 |
+|  23 | 2020.09.04 | Bullet      |           1999 |           2018 | 0-1      | https://lichess.org/aBaF53Va |
+|  24 | 2020.09.04 | Bullet      |           2011 |           1949 | 1-0      | https://lichess.org/wz9ZF0qH |
+|  25 | 2020.09.04 | Bullet      |           1918 |           1920 | 1-0      | https://lichess.org/XF6hR4xa |
+|  26 | 2020.09.04 | Blitz       |           1619 |           2148 | 0-1      | https://lichess.org/kOClvvhg |
+|  27 | 2020.09.04 | Blitz       |           1807 |           1901 | 0-1      | https://lichess.org/jDd2pnyq |
+|  28 | 2020.09.04 | Blitz       |           1558 |           1921 | 0-1      | https://lichess.org/FJA85FVI |
+|  29 | 2020.09.04 | Rapid       |           1667 |           1743 | 0-1      | https://lichess.org/UpeujzoQ |
+|  30 | 2020.09.04 | Rapid       |           1634 |           1654 | 1-0      | https://lichess.org/Rza5gYRv |
+|  31 | 2020.09.04 | Rapid       |           1493 |           1497 | 1-0      | https://lichess.org/GowhBNoY |
+|  32 | 2020.09.04 | Rapid       |           1436 |           1473 | 0-1      | https://lichess.org/Zd1RZKaF |
+|  33 | 2020.09.05 | Blitz       |           2021 |           2020 | 1-0      | https://lichess.org/O54FnzvF |
+|  34 | 2020.09.05 | Bullet      |           2006 |           1863 | 0-1      | https://lichess.org/N6p6RriT |
+|  35 | 2020.09.05 | Blitz       |           1877 |           1895 | 1-0      | https://lichess.org/ZL2G8EW5 |
+|  36 | 2020.09.05 | Blitz       |           1694 |           1712 | 1-0      | https://lichess.org/4uiEnOiV |
+|  37 | 2020.09.05 | Bullet      |           1717 |           1685 | 1-0      | https://lichess.org/3uyM4IVn |
+|  38 | 2020.09.05 | Blitz       |           1702 |           1657 | 0-1      | https://lichess.org/H60qtz6J |
+|  39 | 2020.09.05 | Bullet      |           1598 |           1668 | 1-0      | https://lichess.org/N4EJml8v |
+|  40 | 2020.09.05 | Bullet      |           1501 |           1567 | 0-1      | https://lichess.org/I7HLjRjG |
+|  41 | 2020.09.05 | Bullet      |            914 |           1655 | 0-1      | https://lichess.org/hxWwgqf8 |
+|  42 | 2020.09.06 | Blitz       |           2247 |           1895 | 1-0      | https://lichess.org/jVHm2IGs |
+|  43 | 2020.09.06 | Blitz       |           1961 |           1921 | 1-0      | https://lichess.org/gBKbfTCs |
+|  44 | 2020.09.06 | Rapid       |           1992 |           1729 | 1-0      | https://lichess.org/OJZaedQn |
+|  45 | 2020.09.06 | Blitz       |           1933 |           1761 | 1-0      | https://lichess.org/aBnvQIEo |
+|  46 | 2020.09.06 | Blitz       |           1889 |           1755 | 0-1      | https://lichess.org/1U4ctodG |
+|  47 | 2020.09.06 | Bullet      |           1818 |           1819 | 0-1      | https://lichess.org/sl9ehEMb |
+|  48 | 2020.09.06 | Rapid       |           1770 |           1772 | 0-1      | https://lichess.org/ONb7pNOk |
+|  49 | 2020.09.06 | Blitz       |           1699 |           1721 | 0-1      | https://lichess.org/GuWuBxhf |
+|  50 | 2020.09.06 | Bullet      |           1713 |           1633 | 1-0      | https://lichess.org/yr1zTVcW |
+|  51 | 2020.09.06 | Rapid       |           1531 |           1568 | 1-0      | https://lichess.org/KkRJNgOT |
+|  52 | 2020.09.06 | Blitz       |           1537 |           1482 | 1-0      | https://lichess.org/zfW5TBng |
+|  53 | 2020.09.06 | Blitz       |           1679 |           1292 | 0-1      | https://lichess.org/GiauRqTm |
+|  54 | 2020.09.06 | Rapid       |           1439 |           1515 | 1-0      | https://lichess.org/aK0jKjqM |
+|  55 | 2020.09.07 | Blitz       |           2029 |           2061 | 1-0      | https://lichess.org/ESmI7kbC |
+|  56 | 2020.09.07 | Blitz       |           1872 |           1825 | 1-0      | https://lichess.org/Dh9gMMDX |
+|  57 | 2020.09.07 | Bullet      |           1835 |           1808 | 1-0      | https://lichess.org/OM5cNeg9 |
+|  58 | 2020.09.07 | Blitz       |           1541 |           1963 | 0-1      | https://lichess.org/43b1txlI |
+|  59 | 2020.09.07 |             |           1524 |           1456 | 0-1      | https://lichess.org/UsRGihEu |
+|  60 | 2020.09.08 | Blitz       |           2253 |           2285 | 0-1      | https://lichess.org/hHSc9FDc |
+|  61 | 2020.09.08 | Bullet      |           1850 |           2179 | 1-0      | https://lichess.org/jMHM8HZ7 |
+|  62 | 2020.09.08 | Blitz       |           1981 |           2007 | 1-0      | https://lichess.org/OAGWwt4i |
+|  63 | 2020.09.08 | Rapid       |           2087 |           1877 | 1-0      | https://lichess.org/VIlMgwVW |
+|  64 | 2020.09.08 | Blitz       |           1835 |           2013 | 0-1      | https://lichess.org/NKrDueX3 |
+|  65 | 2020.09.08 | Blitz       |           1889 |           1931 | 1-0      | https://lichess.org/QBJdV33c |
+|  66 | 2020.09.08 | Bullet      |           1873 |           1920 | 0-1      | https://lichess.org/YsNQ28oY |
+|  67 | 2020.09.08 | Bullet      |           1951 |           1810 | 1-0      | https://lichess.org/wGL1U0bd |
+|  68 | 2020.09.08 | Blitz       |           1878 |           1801 | 0-1      | https://lichess.org/uoONcsyQ |
+|  69 | 2020.09.08 | Blitz       |           1845 |           1831 | 0-1      | https://lichess.org/O1mtpYtG |
+|  70 | 2020.09.08 | Bullet      |           1660 |           1762 | 0-1      | https://lichess.org/xEFQywMc |
+|  71 | 2020.09.09 | Blitz       |           1935 |           1940 | 1-0      | https://lichess.org/8P6UFzwR |
+|  72 | 2020.09.09 | Bullet      |           1851 |           1895 | 1-0      | https://lichess.org/V3xiKPw0 |
+|  73 | 2020.09.09 | Blitz       |           1777 |           1899 | 1-0      | https://lichess.org/ubXhoqKX |
+|  74 | 2020.09.09 | Blitz       |           1778 |           1860 | 1-0      | https://lichess.org/NaRoM0hr |
+|  75 | 2020.09.09 | Blitz       |           1332 |           2020 | 0-1      | https://lichess.org/5cBgQJK6 |
+|  76 | 2020.09.09 | Blitz       |           1721 |           1617 | 0-1      | https://lichess.org/mDF11iwK |
+|  77 | 2020.09.09 | Rapid       |           1626 |           1643 | 1-0      | https://lichess.org/b66Bnzbb |
+|  78 | 2020.09.09 | Blitz       |           1459 |           1494 | 1-0      | https://lichess.org/m94eY8wt |
+|  79 | 2020.09.09 | Blitz       |           1408 |           1394 | 0-1      | https://lichess.org/gpXGG4Q0 |
+|  80 | 2020.09.09 | Rapid       |           1342 |           1351 | 0-1      | https://lichess.org/0McdZXBD |
+|  81 | 2020.09.09 | Rapid       |           1155 |           1226 | 1-0      | https://lichess.org/XxKAeX8J |
+|  82 | 2020.09.10 | Bullet      |           2141 |           2095 | 0-1      | https://lichess.org/HOiSOvyV |
+|  83 | 2020.09.10 | Blitz       |           2109 |           2047 | 1-0      | https://lichess.org/ihySZlhv |
+|  84 | 2020.09.10 | Blitz       |           2019 |           1982 | 0-1      | https://lichess.org/5OeHsfRg |
+|  85 | 2020.09.10 | Bullet      |           1890 |           1902 | 1-0      | https://lichess.org/nNt0tAkE |
+|  86 | 2020.09.10 | Blitz       |           1931 |           1742 | 1-0      | https://lichess.org/48WcFwf0 |
+|  87 | 2020.09.10 | Rapid       |           1813 |           1774 | 1-0      | https://lichess.org/xOwgorD3 |
+|  88 | 2020.09.10 | Blitz       |           1620 |           1602 | 1-0      | https://lichess.org/FV8bte5y |
+|  89 | 2020.09.10 | Blitz       |           1603 |           1575 | 0-1      | https://lichess.org/YG0IFz19 |
+|  90 | 2020.09.10 | Blitz       |           1580 |           1580 | 0-1      | https://lichess.org/cn0abEr9 |
+|  91 | 2020.09.10 | Blitz       |           1531 |           1555 | 0-1      | https://lichess.org/QVRDloZK |
+|  92 | 2020.09.10 | Blitz       |           1811 |           1249 | 1-0      | https://lichess.org/rPlF1DUl |
+|  93 | 2020.09.10 | Blitz       |           1511 |           1497 | 0-1      | https://lichess.org/mNtHPlzb |
+|  94 | 2020.09.10 | Blitz       |           1443 |           1467 | 0-1      | https://lichess.org/EgYeUy98 |
+|  95 | 2020.09.11 | Bullet      |           2062 |           1981 | 1-0      | https://lichess.org/Y0HuVXE0 |
+|  96 | 2020.09.11 | Bullet      |           1739 |           1795 | 1-0      | https://lichess.org/gvEXAdhF |
+|  97 | 2020.09.11 | Bullet      |           2120 |           1399 | 1-0      | https://lichess.org/JboIXqGU |
+|  98 | 2020.09.11 | Blitz       |           1648 |           1849 | 0-1      | https://lichess.org/3vc913ab |
+|  99 | 2020.09.11 | Blitz       |           1656 |           1676 | 0-1      | https://lichess.org/neCtdb8E |
+| 100 | 2020.09.11 | Blitz       |           1658 |           1652 | 0-1      | https://lichess.org/5jbkUyRl |
+| 101 | 2020.09.11 | Bullet      |           1570 |           1564 | 1-0      | https://lichess.org/4tWPFd9y |
+| 102 | 2020.09.11 | Blitz       |           1454 |           1439 | 1-0      | https://lichess.org/JVDoUOdo |
+| 103 | 2020.09.11 | Blitz       |           1420 |           1429 | 0-1      | https://lichess.org/kD1C6hLi |
+| 104 | 2020.09.11 | Bullet      |           1261 |           1255 | 1-0      | https://lichess.org/l2RbObSP |
+| 105 | 2020.09.12 | Blitz       |           2467 |           2326 | 1-0      | https://lichess.org/cc8A1WpG |
+| 106 | 2020.09.12 | Blitz       |           2350 |           2210 | 1-0      | https://lichess.org/tdfKuEJi |
+| 107 | 2020.09.12 | Blitz       |           2152 |           2152 | 0-1      | https://lichess.org/WOb2f9Jt |
+| 108 | 2020.09.12 | Blitz       |           2182 |           1959 | 1-0      | https://lichess.org/VTNM5drT |
+| 109 | 2020.09.12 | Rapid       |           1980 |           2064 | 1-0      | https://lichess.org/66ati0hH |
+| 110 | 2020.09.12 | Blitz       |           1719 |           2211 | 0-1      | https://lichess.org/9VTo4R7j |
+| 111 | 2020.09.12 | Bullet      |           1780 |           1770 | 0-1      | https://lichess.org/PXjCPbXR |
+| 112 | 2020.09.12 | Blitz       |           1744 |           1744 | 0-1      | https://lichess.org/M5s5ckvY |
+| 113 | 2020.09.12 | Bullet      |           1536 |           1560 | 0-1      | https://lichess.org/qlXxLTXa |
+| 114 | 2020.09.12 | Blitz       |           1423 |           1394 | 1-0      | https://lichess.org/GICfgUoN |
+| 115 | 2020.09.12 | Bullet      |           1352 |           1409 | 1-0      | https://lichess.org/tQ0FaOyC |
+| 116 | 2020.09.12 | Blitz       |           1318 |           1288 | 0-1      | https://lichess.org/bm5SB2ql |
+| 117 | 2020.09.12 | Blitz       |           1499 |           1104 | 1-0      | https://lichess.org/I6krbY7t |
+| 118 | 2020.09.13 | Bullet      |           2265 |           2580 | 0-1      | https://lichess.org/pSrrcWRo |
+| 119 | 2020.09.13 | Blitz       |           2274 |           2227 | 0-1      | https://lichess.org/g7ika6D1 |
+| 120 | 2020.09.13 | Blitz       |           2055 |           2042 | 1-0      | https://lichess.org/DzYWRQTo |
+| 121 | 2020.09.13 | Rapid       |           2077 |           2000 | 1-0      | https://lichess.org/ao7vxFKj |
+| 122 | 2020.09.13 | Bullet      |           2031 |           2032 | 0-1      | https://lichess.org/CvtveufI |
+| 123 | 2020.09.13 | Blitz       |           2009 |           1943 | 1-0      | https://lichess.org/CmnTmDTU |
+| 124 | 2020.09.13 | Blitz       |           1910 |           1854 | 1-0      | https://lichess.org/MwxDGKFG |
+| 125 | 2020.09.13 | Rapid       |           1348 |           1966 | 0-1      | https://lichess.org/C0EeRwqJ |
+| 126 | 2020.09.13 | Bullet      |           1590 |           1640 | 0-1      | https://lichess.org/C2gtGXfn |
+| 127 | 2020.09.13 | Bullet      |           1613 |           1609 | 0-1      | https://lichess.org/CPDxuX4p |
+| 128 | 2020.09.13 | Bullet      |           1582 |           1587 | 1-0      | https://lichess.org/tIiqBh61 |
+| 129 | 2020.09.14 | Blitz       |           1922 |           2031 | 1-0      | https://lichess.org/5PW1qbCR |
+| 130 | 2020.09.14 | Rapid       |           1898 |           1759 | 0-1      | https://lichess.org/LqceO8YS |
+| 131 | 2020.09.14 | Bullet      |           1821 |           1802 | 1-0      | https://lichess.org/onscumtW |
+| 132 | 2020.09.14 | Blitz       |           1260 |           1263 | 1-0      | https://lichess.org/lkrLLGJP |
+| 133 | 2020.09.14 | Blitz       |           1162 |           1170 | 1-0      | https://lichess.org/KNqSZXh0 |
+| 134 | 2020.09.15 | Blitz       |           2092 |           2218 | 0-1      | https://lichess.org/zA5Mm3Yt |
+| 135 | 2020.09.15 | Bullet      |           2070 |           2109 | 0-1      | https://lichess.org/XwdI4xPS |
+| 136 | 2020.09.15 | Bullet      |           2093 |           2063 | 1-0      | https://lichess.org/NjOGn49w |
+| 137 | 2020.09.15 | Bullet      |           1798 |           1880 | 0-1      | https://lichess.org/3DxXts9q |
+| 138 | 2020.09.15 | Bullet      |           1774 |           1816 | 1-0      | https://lichess.org/z6kdnnxz |
+| 139 | 2020.09.15 | Blitz       |           1668 |           1683 | 0-1      | https://lichess.org/pRY8QW1F |
+| 140 | 2020.09.15 | Blitz       |           1558 |           1520 | 0-1      | https://lichess.org/ryl5TG61 |
+| 141 | 2020.09.15 | Blitz       |           1491 |           1487 | 1-0      | https://lichess.org/OuuxRTUO |
+| 142 | 2020.09.15 | Bullet      |           1506 |           1443 | 1-0      | https://lichess.org/rM3ekiAz |
+| 143 | 2020.09.15 | Blitz       |           1349 |           1364 | 1-0      | https://lichess.org/4ylc25Bu |
+| 144 | 2020.09.15 | Bullet      |           1313 |           1289 | 1-0      | https://lichess.org/i0vTmXPM |
+| 145 | 2020.09.15 | Blitz       |           1310 |           1258 | 1-0      | https://lichess.org/g4omYEKZ |
+| 146 | 2020.09.16 | Blitz       |           2139 |           2150 | 0-1      | https://lichess.org/zgwXyROb |
+| 147 | 2020.09.16 | Blitz       |           2237 |           1994 | 1-0      | https://lichess.org/A4taObrA |
+| 148 | 2020.09.16 | Blitz       |           2019 |           1649 | 0-1      | https://lichess.org/rJoJHL7k |
+| 149 | 2020.09.16 | Blitz       |           2134 |           1533 | 1-0      | https://lichess.org/BLkWNuiN |
+| 150 | 2020.09.16 | Blitz       |           1679 |           1684 | 1-0      | https://lichess.org/aq5mMdOY |
+| 151 | 2020.09.16 | Blitz       |           1607 |           1669 | 1-0      | https://lichess.org/O8U2JFP5 |
+| 152 | 2020.09.16 | Bullet      |           1630 |           1636 | 1-0      | https://lichess.org/q3IUIeGN |
+| 153 | 2020.09.16 | Bullet      |           1205 |           1563 | 0-1      | https://lichess.org/N5YSrkxh |
+| 154 | 2020.09.16 | Bullet      |           1321 |           1282 | 1-0      | https://lichess.org/cTwnKmkQ |
+| 155 | 2020.09.17 | Bullet      |           2057 |           2379 | 0-1      | https://lichess.org/Izfmkr6T |
+| 156 | 2020.09.17 | Blitz       |           2048 |           2110 | 1-0      | https://lichess.org/StZ0ww4C |
+| 157 | 2020.09.17 | Blitz       |           2028 |           2042 | 0-1      | https://lichess.org/7EYnEgZS |
+| 158 | 2020.09.17 | Bullet      |           2003 |           2044 | 0-1      | https://lichess.org/mxcuvIZw |
+| 159 | 2020.09.17 | Bullet      |           1954 |           2010 | 0-1      | https://lichess.org/Os7AtcvD |
+| 160 | 2020.09.17 | Blitz       |           2075 |           1859 | 1-0      | https://lichess.org/nbqZToxl |
+| 161 | 2020.09.17 | Blitz       |           1907 |           1900 | 0-1      | https://lichess.org/d8HMzGCK |
+| 162 | 2020.09.17 | Rapid       |           1888 |           1878 | 1-0      | https://lichess.org/g6eRHxHx |
+| 163 | 2020.09.17 | Blitz       |           1740 |           1755 | 1-0      | https://lichess.org/EQJKLBdN |
+| 164 | 2020.09.17 | Bullet      |           1641 |           1637 | 1-0      | https://lichess.org/FBwhpfaZ |
+| 165 | 2020.09.17 | Blitz       |           1649 |           1596 | 1-0      | https://lichess.org/DKlFY2mJ |
+| 166 | 2020.09.17 | Rapid       |           1546 |           1604 | 0-1      | https://lichess.org/SG4ftmQS |
+| 167 | 2020.09.17 | Rapid       |           1591 |           1554 | 1-0      | https://lichess.org/VsF2nCt5 |
+| 168 | 2020.09.17 | Blitz       |           1454 |           1426 | 1-0      | https://lichess.org/KghHQJ0v |
+| 169 | 2020.09.17 | Bullet      |           1278 |           1303 | 0-1      | https://lichess.org/aQdySfQA |
+| 170 | 2020.09.18 | Bullet      |           2043 |           2050 | 0-1      | https://lichess.org/Td7c1rFA |
+| 171 | 2020.09.18 | Rapid       |           2166 |           1753 | 1-0      | https://lichess.org/MwUrTcAc |
+| 172 | 2020.09.18 | Blitz       |           1929 |           1951 | 1-0      | https://lichess.org/1dLbUFHv |
+| 173 | 2020.09.18 | Rapid       |           1800 |           1954 | 0-1      | https://lichess.org/OW13v5QM |
+| 174 | 2020.09.18 | Blitz       |           1899 |           1843 | 0-1      | https://lichess.org/PoZf9i3Z |
+| 175 | 2020.09.18 | Bullet      |           1811 |           1713 | 1-0      | https://lichess.org/iuTwRy0E |
+| 176 | 2020.09.18 | Rapid       |           1566 |           1626 | 1-0      | https://lichess.org/JjHK5rmP |
+| 177 | 2020.09.18 | Bullet      |           1215 |           1967 | 1-0      | https://lichess.org/1kmlJTsm |
+| 178 | 2020.09.18 | Blitz       |           1288 |           1314 | 1-0      | https://lichess.org/jFouNWyG |
+| 179 | 2020.09.19 | Blitz       |           2424 |           2446 | 1-0      | https://lichess.org/x3MTXftl |
+| 180 | 2020.09.19 | Bullet      |           2086 |           2110 | 1-0      | https://lichess.org/C3LzIjXX |
+| 181 | 2020.09.19 | Blitz       |           1982 |           1902 | 0-1      | https://lichess.org/yeht49u7 |
+| 182 | 2020.09.19 | Blitz       |           1849 |           1887 | 0-1      | https://lichess.org/6NMEWcvD |
+| 183 | 2020.09.19 | Bullet      |           1857 |           1793 | 0-1      | https://lichess.org/7KqCGXkV |
+| 184 | 2020.09.19 | Blitz       |           1789 |           1858 | 0-1      | https://lichess.org/4oniplHu |
+| 185 | 2020.09.19 | Blitz       |           1667 |           1665 | 0-1      | https://lichess.org/QiNcbCPR |
+| 186 | 2020.09.19 | Blitz       |           1627 |           1654 | 0-1      | https://lichess.org/bQapo4pU |
+| 187 | 2020.09.19 | Bullet      |           1576 |           1549 | 0-1      | https://lichess.org/RBwi4xIh |
+| 188 | 2020.09.19 | Blitz       |           1417 |           1367 | 0-1      | https://lichess.org/LrBHrMVi |
+| 189 | 2020.09.20 | Blitz       |           2222 |           2157 | 1-0      | https://lichess.org/FgpbQehZ |
+| 190 | 2020.09.20 | Blitz       |           2072 |           2110 | 0-1      | https://lichess.org/hrsg88oA |
+| 191 | 2020.09.20 | Blitz       |           2089 |           2065 | 1-0      | https://lichess.org/dNDz07mR |
+| 192 | 2020.09.20 | Bullet      |           2096 |           1964 | 1-0      | https://lichess.org/YWmwFnXx |
+| 193 | 2020.09.20 | Blitz       |           1871 |           1797 | 1-0      | https://lichess.org/Ca1jkfhc |
+| 194 | 2020.09.20 | Bullet      |           1818 |           1814 | 1-0      | https://lichess.org/nKbYr8WR |
+| 195 | 2020.09.20 | Bullet      |           1805 |           1799 | 0-1      | https://lichess.org/k0cENdlQ |
+| 196 | 2020.09.20 | Blitz       |           1695 |           1718 | 1-0      | https://lichess.org/O5MpQqfp |
+| 197 | 2020.09.20 | Blitz       |           1705 |           1708 | 0-1      | https://lichess.org/yUmGqMa2 |
+| 198 | 2020.09.20 | Bullet      |           1500 |           1860 | 0-1      | https://lichess.org/kDnuXodR |
+| 199 | 2020.09.20 | Bullet      |           1549 |           1563 | 1-0      | https://lichess.org/njrbFAvq |
+| 200 | 2020.09.20 | Blitz       |           1562 |           1528 | 1-0      | https://lichess.org/7fv8ZoVY |
+| 201 | 2020.09.20 | Blitz       |           1544 |           1422 | 1-0      | https://lichess.org/6cLa3np2 |
+| 202 | 2020.09.20 | Blitz       |           1417 |           1473 | 0-1      | https://lichess.org/FIkxOFse |
+| 203 | 2020.09.20 | Blitz       |           1287 |           1411 | 0-1      | https://lichess.org/zJX1EvSf |
+| 204 | 2020.09.20 | Blitz       |           1172 |           1016 | 1-0      | https://lichess.org/EeVqYtwH |
+| 205 | 2020.09.20 | Blitz       |           1067 |           1048 | 1-0      | https://lichess.org/gKuph6m1 |
+| 206 | 2020.09.21 | Blitz       |           2156 |           2356 | 1-0      | https://lichess.org/ICd4jEpv |
+| 207 | 2020.09.21 | Bullet      |           1992 |           1988 | 1-0      | https://lichess.org/8KN4PXps |
+| 208 | 2020.09.21 | Bullet      |           1894 |           1878 | 0-1      | https://lichess.org/m4E3wtPi |
+| 209 | 2020.09.21 | Blitz       |           2240 |           1337 | 1-0      | https://lichess.org/rKjC5Rq2 |
+| 210 | 2020.09.21 | Rapid       |           1839 |           1360 | 1-0      | https://lichess.org/HPeAOrWA |
+| 211 | 2020.09.21 | Blitz       |           1480 |           1541 | 1-0      | https://lichess.org/ADuYO9eV |
+| 212 | 2020.09.21 | Blitz       |           1694 |           1310 | 0-1      | https://lichess.org/BU9WwyJ1 |
+| 213 | 2020.09.21 | Blitz       |           1384 |           1407 | 1-0      | https://lichess.org/rBhjQUBw |
+| 214 | 2020.09.22 | Bullet      |           2365 |           2331 | 0-1      | https://lichess.org/yh5PDIWx |
+| 215 | 2020.09.22 | Blitz       |           2108 |           2100 | 1-0      | https://lichess.org/XlgFIaaD |
+| 216 | 2020.09.22 | Blitz       |           2039 |           2026 | 1-0      | https://lichess.org/LKBBeP4O |
+| 217 | 2020.09.22 | Bullet      |           2016 |           2009 | 1-0      | https://lichess.org/qHYZKVou |
+| 218 | 2020.09.22 | Rapid       |           1887 |           1924 | 0-1      | https://lichess.org/aOxaQFxT |
+| 219 | 2020.09.22 | Bullet      |           1869 |           1872 | 1-0      | https://lichess.org/Yh2t99Im |
+| 220 | 2020.09.22 | Rapid       |           1844 |           1874 | 0-1      | https://lichess.org/V44mLiXy |
+| 221 | 2020.09.22 | Blitz       |           1707 |           1868 | 1-0      | https://lichess.org/ysWmGEFz |
+| 222 | 2020.09.22 | Bullet      |           1718 |           1735 | 1-0      | https://lichess.org/LQZHgK19 |
+| 223 | 2020.09.22 | Blitz       |           1374 |           1466 | 0-1      | https://lichess.org/mAeS8BYx |
+| 224 | 2020.09.22 | Blitz       |           1299 |           1188 | 0-1      | https://lichess.org/Rkxqt2fj |
+| 225 | 2020.09.22 | Blitz       |           1038 |           1073 | 0-1      | https://lichess.org/jjDE50Wq |
+| 226 | 2020.09.23 | Bullet      |           1966 |           1974 | 0-1      | https://lichess.org/pTVDUi3u |
+| 227 | 2020.09.23 | Rapid       |           1883 |           1897 | 1-0      | https://lichess.org/YDoyUDpu |
+| 228 | 2020.09.23 | Blitz       |           1850 |           1861 | 1-0      | https://lichess.org/YJurSqnc |
+| 229 | 2020.09.23 | Blitz       |           1787 |           1836 | 1-0      | https://lichess.org/mFQKPHrn |
+| 230 | 2020.09.23 | Rapid       |           1604 |           1848 | 0-1      | https://lichess.org/gXegDrHW |
+| 231 | 2020.09.23 | Blitz       |           1791 |           1373 | 1-0      | https://lichess.org/qIeRCDbY |
+| 232 | 2020.09.23 | Blitz       |           1333 |           1278 | 1-0      | https://lichess.org/SDejRkZm |
+| 233 | 2020.09.23 | Bullet      |           1162 |           1179 | 1-0      | https://lichess.org/u0je6ai0 |
+| 234 | 2020.09.23 | Blitz       |           1128 |           1149 | 1-0      | https://lichess.org/etngPm8i |
+| 235 | 2020.09.23 | Blitz       |           1430 |            827 | 1-0      | https://lichess.org/Zjn8WoyP |
+| 236 | 2020.09.23 | Blitz       |           1109 |           1081 | 0-1      | https://lichess.org/iiGrUNCx |
+| 237 | 2020.09.24 | Rapid       |           2180 |           2140 | 0-1      | https://lichess.org/sMUMMNan |
+| 238 | 2020.09.24 | Blitz       |           2078 |           1986 | 1-0      | https://lichess.org/u3bRKbbj |
+| 239 | 2020.09.24 | Blitz       |           1954 |           2047 | 0-1      | https://lichess.org/JWf54DWF |
+| 240 | 2020.09.24 | Blitz       |           1997 |           1955 | 1-0      | https://lichess.org/9Qrmqv6w |
+| 241 | 2020.09.24 | Bullet      |           1958 |           1886 | 1-0      | https://lichess.org/MJkRG9JH |
+| 242 | 2020.09.24 | Blitz       |           1819 |           1940 | 1-0      | https://lichess.org/SNroTsZE |
+| 243 | 2020.09.24 | Blitz       |           1604 |           1923 | 0-1      | https://lichess.org/0JT0tkGK |
+| 244 | 2020.09.24 | Blitz       |           1751 |           1771 | 1-0      | https://lichess.org/EhHXt9o4 |
+| 245 | 2020.09.24 | Blitz       |           1568 |           1863 | 1-0      | https://lichess.org/mReqqOzR |
+| 246 | 2020.09.24 | Bullet      |           1674 |           1522 | 1-0      | https://lichess.org/pRkLvVHp |
+| 247 | 2020.09.24 | Blitz       |           1527 |           1561 | 0-1      | https://lichess.org/WV0ik4fB |
+| 248 | 2020.09.24 | Bullet      |           1409 |           1440 | 1-0      | https://lichess.org/4UZzVKIC |
+| 249 | 2020.09.24 | Bullet      |           1392 |           1389 | 1-0      | https://lichess.org/76QLe1Sn |
+| 250 | 2020.09.24 | Blitz       |           1283 |           1442 | 1-0      | https://lichess.org/uQCdP5yy |
+| 251 | 2020.09.24 | Rapid       |           1350 |           1368 | 1-0      | https://lichess.org/SEvuO2Dv |
+| 252 | 2020.09.25 | Bullet      |           2333 |           2304 | 1-0      | https://lichess.org/gjPvDS21 |
+| 253 | 2020.09.25 | Bullet      |           2027 |           2096 | 1-0      | https://lichess.org/ioNJL5PW |
+| 254 | 2020.09.25 | Blitz       |           2087 |           1938 | 1-0      | https://lichess.org/nd8DONAL |
+| 255 | 2020.09.25 | Blitz       |           2067 |           1925 | 1-0      | https://lichess.org/Xy6ukOQK |
+| 256 | 2020.09.25 | Blitz       |           1915 |           1924 | 1-0      | https://lichess.org/E7dePjTY |
+| 257 | 2020.09.25 | Blitz       |           1932 |           1884 | 1-0      | https://lichess.org/cXZDSYrl |
+| 258 | 2020.09.25 | Blitz       |           1911 |           1869 | 0-1      | https://lichess.org/yBPHoLLW |
+| 259 | 2020.09.25 | Blitz       |           1834 |           1807 | 0-1      | https://lichess.org/0Jsjoqlz |
+| 260 | 2020.09.25 | Blitz       |           1687 |           1678 | 1-0      | https://lichess.org/klryFdDU |
+| 261 | 2020.09.25 | Rapid       |           1665 |           1694 | 1-0      | https://lichess.org/oxFqlk7h |
+| 262 | 2020.09.25 | Bullet      |           1587 |           1709 | 0-1      | https://lichess.org/JsiJAnGO |
+| 263 | 2020.09.25 |             |           1207 |           1882 | 0-1      | https://lichess.org/wraaKLwL |
+| 264 | 2020.09.25 | Rapid       |           1544 |           1467 | 0-1      | https://lichess.org/VVoX9gZQ |
+| 265 | 2020.09.26 | Bullet      |           2038 |           2493 | 0-1      | https://lichess.org/hx8XtePK |
+| 266 | 2020.09.26 | Blitz       |           1983 |           1995 | 1-0      | https://lichess.org/HI5EyHAv |
+| 267 | 2020.09.26 | Rapid       |           1892 |           1902 | 0-1      | https://lichess.org/LSOeAV5g |
+| 268 | 2020.09.26 | Blitz       |           1799 |           1963 | 0-1      | https://lichess.org/qbHfFJZb |
+| 269 | 2020.09.26 | Bullet      |           1754 |           1760 | 1-0      | https://lichess.org/nEGdrwK1 |
+| 270 | 2020.09.26 | Blitz       |           1740 |           1742 | 0-1      | https://lichess.org/jZPygzRs |
+| 271 | 2020.09.26 | Blitz       |           1722 |           1722 | 0-1      | https://lichess.org/ndR2s0RR |
+| 272 | 2020.09.26 | Blitz       |           1712 |           1707 | 1-0      | https://lichess.org/BerzSGmn |
+| 273 | 2020.09.26 | Bullet      |           1703 |           1692 | 1-0      | https://lichess.org/2KPewoLD |
+| 274 | 2020.09.26 | Blitz       |           1656 |           1552 | 1-0      | https://lichess.org/EqPsGcsb |
+| 275 | 2020.09.27 | Bullet      |           2486 |           2340 | 1-0      | https://lichess.org/swOgTCeP |
+| 276 | 2020.09.27 | Bullet      |           2080 |           2085 | 0-1      | https://lichess.org/cGzRTsqU |
+| 277 | 2020.09.27 | Blitz       |           2031 |           2024 | 0-1      | https://lichess.org/oDTeZ3kQ |
+| 278 | 2020.09.27 | Blitz       |           1870 |           1896 | 0-1      | https://lichess.org/Sx3PuNVU |
+| 279 | 2020.09.27 | Bullet      |           1866 |           1893 | 0-1      | https://lichess.org/K4fcDiwN |
+| 280 | 2020.09.27 | Blitz       |           1849 |           1836 | 0-1      | https://lichess.org/xGoyhifQ |
+| 281 | 2020.09.27 | Blitz       |           1794 |           1889 | 0-1      | https://lichess.org/3VflPzsJ |
+| 282 | 2020.09.27 | Rapid       |           1755 |           1752 | 0-1      | https://lichess.org/JGPaOk1l |
+| 283 | 2020.09.27 | Bullet      |           1609 |           1604 | 0-1      | https://lichess.org/bCi47CMA |
+| 284 | 2020.09.27 | Blitz       |           1523 |           1443 | 0-1      | https://lichess.org/Hbje24Tp |
+| 285 | 2020.09.27 | Rapid       |           1278 |           1052 | 1-0      | https://lichess.org/ssPfk5sB |
+| 286 | 2020.09.27 | Blitz       |           1084 |           1144 | 0-1      | https://lichess.org/N664hmmp |
+| 287 | 2020.09.28 | Bullet      |           2214 |           2343 | 0-1      | https://lichess.org/3ZHJtngp |
+| 288 | 2020.09.28 | Bullet      |           2101 |           2143 | 1-0      | https://lichess.org/0uPz77LR |
+| 289 | 2020.09.28 | Bullet      |           2026 |           2119 | 1-0      | https://lichess.org/4KOdt1r4 |
+| 290 | 2020.09.28 | Rapid       |           1915 |           1924 | 1-0      | https://lichess.org/TovWlwYj |
+| 291 | 2020.09.28 | Blitz       |           1575 |           2013 | 0-1      | https://lichess.org/tNTCsZSY |
+| 292 | 2020.09.28 | Rapid       |           1701 |           1714 | 1-0      | https://lichess.org/z4S3YW0S |
+| 293 | 2020.09.28 | Blitz       |           1722 |           1680 | 1-0      | https://lichess.org/5epeMMZO |
+| 294 | 2020.09.28 | Blitz       |           1612 |           1617 | 1-0      | https://lichess.org/9gjwK5KX |
+| 295 | 2020.09.28 | Blitz       |           1244 |           1301 | 1-0      | https://lichess.org/mMIsIP5M |
+| 296 | 2020.09.29 | Blitz       |           2330 |           2252 | 0-1      | https://lichess.org/KQAM68sf |
+| 297 | 2020.09.29 | Bullet      |           2138 |           2097 | 1-0      | https://lichess.org/SnsbM39F |
+| 298 | 2020.09.29 | Blitz       |           2066 |           2046 | 1-0      | https://lichess.org/6Dz6P1RL |
+| 299 | 2020.09.29 | Blitz       |           2037 |           2037 | 1-0      | https://lichess.org/v38sCsyb |
+| 300 | 2020.09.29 | Blitz       |           1980 |           1966 | 0-1      | https://lichess.org/HN6MEyJk |
+| 301 | 2020.09.29 | Bullet      |           1989 |           1907 | 1-0      | https://lichess.org/OvvjqeLM |
+| 302 | 2020.09.29 | Blitz       |           1979 |           1866 | 1-0      | https://lichess.org/TG9yau56 |
+| 303 | 2020.09.29 | Bullet      |           1910 |           1848 | 1-0      | https://lichess.org/53SsX684 |
+| 304 | 2020.09.29 | Bullet      |           1857 |           1875 | 0-1      | https://lichess.org/FDydcjRH |
+| 305 | 2020.09.29 | Bullet      |           1884 |           1813 | 0-1      | https://lichess.org/4CNk7L0V |
+| 306 | 2020.09.29 | Bullet      |           1878 |           1789 | 1-0      | https://lichess.org/oN4U4qM3 |
+| 307 | 2020.09.29 | Blitz       |           1980 |           1602 | 1-0      | https://lichess.org/BWbhX49U |
+| 308 | 2020.09.29 | Rapid       |           1741 |           1654 | 1-0      | https://lichess.org/d8tX9HTx |
+| 309 | 2020.09.29 | Bullet      |           1628 |           1646 | 1-0      | https://lichess.org/Upt2Rb93 |
+| 310 | 2020.09.29 | Rapid       |           1459 |           1480 | 1-0      | https://lichess.org/O3QsYCCz |
+| 311 | 2020.09.30 | Blitz       |           2179 |           2236 | 1-0      | https://lichess.org/kdA5T4nV |
+| 312 | 2020.09.30 | Blitz       |           2491 |           1734 | 1-0      | https://lichess.org/DqDXcYQm |
+| 313 | 2020.09.30 | Bullet      |           2024 |           2106 | 0-1      | https://lichess.org/Sx5H9hJF |
+| 314 | 2020.09.30 | Blitz       |           2064 |           2015 | 1-0      | https://lichess.org/q8YRvRBU |
+| 315 | 2020.09.30 | Blitz       |           1878 |           1937 | 1-0      | https://lichess.org/BXRMSRcI |
+| 316 | 2020.09.30 | Blitz       |           1736 |           2072 | 1-0      | https://lichess.org/bhLA797H |
+| 317 | 2020.09.30 | Blitz       |           1890 |           1914 | 0-1      | https://lichess.org/3bQsPVrL |
+| 318 | 2020.09.30 | Blitz       |           1885 |           1865 | 1-0      | https://lichess.org/axbwiBX9 |
+| 319 | 2020.09.30 | Blitz       |           2328 |           1352 | 1-0      | https://lichess.org/1VYbF3Zw |
+| 320 | 2020.09.30 | Blitz       |           1744 |           1764 | 1-0      | https://lichess.org/9ZvZeVvl |
+| 321 | 2020.09.30 | Bullet      |           1737 |           1745 | 0-1      | https://lichess.org/YYO2BSrD |
+| 322 | 2020.09.30 | Blitz       |           1709 |           1722 | 1-0      | https://lichess.org/pyBQqcwz |
+| 323 | 2020.09.30 | Bullet      |           1668 |           1647 | 0-1      | https://lichess.org/srabuD7h |
+| 324 | 2020.09.30 | Rapid       |           1666 |           1640 | 1-0      | https://lichess.org/XcNToBh1 |
+| 325 | 2020.09.30 | Rapid       |           1551 |           1514 | 1-0      | https://lichess.org/MxvEZk42 |
+| 326 | 2020.09.30 | Blitz       |           1512 |           1463 | 1-0      | https://lichess.org/XsCDbaNx |
+| 327 | 2020.09.30 | Rapid       |           1342 |           1379 | 1-0      | https://lichess.org/qzG8EXFa |
+| 328 | 2020.09.30 | Bullet      |           1304 |           1321 | 1-0      | https://lichess.org/2W7DsaB7 |
